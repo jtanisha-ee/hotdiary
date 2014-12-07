@@ -1,0 +1,277 @@
+<!--
+<HTML>
+<BODY>
+<FORM>
+-->
+<TD>
+
+<CENTER>
+:$evtbanner:
+</CENTER>
+
+<!-- menutodotbl.html -->
+
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="ffffff" WIDTH="100%">
+<TR BGCOLOR="ffffff" WIDTH="100%">
+<TD>
+
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="ffffff">
+
+<TR BGCOLOR="ffffff" WIDTH="100%">
+<TD BGCOLOR="ffffff">
+<FONT SIZE="3" FACE="Verdana">Todo Title</FONT>
+</TD>
+<TD BGCOLOR="ffffff">
+<INPUT TYPE="TEXT" NAME=subject SIZE="20" MAXLENGTH="64" VALUE=":$subject:">
+</TD>       
+</TR>
+
+<TR BGCOLOR="ffffff" WIDTH="100%">
+<TD BGCOLOR="ffffff">
+<FONT SIZE="3" FACE="Verdana">Description</FONT>
+</TD>
+<TD BGCOLOR="ffffff"> 
+<TEXTAREA ROWS="5" COLS="35" NAME=desc >:$desc:</TEXTAREA>
+</TD>
+</TR>
+
+</TABLE>
+
+<!-- begin due date table -->
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="ffffff" WIDTH="100%">
+
+<TR BGCOLOR="ffffff" WIDTH="100%">
+<TD ALIGN="LEFT" BGCOLOR="ffffff" COLSPAN="1" WIDTH="15%">
+<FONT FACE="Verdana" SIZE="3">Due Date</FONT>
+</TD>
+<TD BGCOLOR="ffffff" COLSPAN="4" WIDTH="85%">&nbsp;</TD>
+</TR>
+
+<TR BGCOLOR="ffffff">
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">&nbsp;</TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Month</FONT></TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Day</FONT></TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Year</FONT></TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Hour</FONT></TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Meridian</FONT></TD>
+<TD BGCOLOR="ffffff" WIDTH="10%">&nbsp;</TD>
+</TR>
+
+<TR BGCOLOR="ffffff">
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">&nbsp;</TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">
+<FONT SIZE=2>
+<SELECT NAME=month>
+<OPTION VALUE=:$monthnum: SELECTED>:$month: 
+<OPTION VALUE=1>Jan
+<OPTION VALUE=2>Feb
+<OPTION VALUE=3>Mar
+<OPTION VALUE=4>Apr
+<OPTION VALUE=5>May
+<OPTION VALUE=6>Jun
+<OPTION VALUE=7>Jul
+<OPTION VALUE=8>Aug
+<OPTION VALUE=9>Sept
+<OPTION VALUE=10>Oct
+<OPTION VALUE=11>Nov
+<OPTION VALUE=12>Dec
+</SELECT>
+</FONT>
+</TD>
+
+<TD ALIGN="LEFT" WIDTH="15%">
+<FONT SIZE=2><SELECT NAME=day>
+<OPTION SELECTED>:$day:
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>5
+<OPTION>6 
+<OPTION>7
+<OPTION>8
+<OPTION>9 
+<OPTION>10
+<OPTION>11
+<OPTION>12 
+<OPTION>13
+<OPTION>14
+<OPTION>15 
+<OPTION>16
+<OPTION>17
+<OPTION>18 
+<OPTION>19
+<OPTION>20
+<OPTION>21 
+<OPTION>22
+<OPTION>23
+<OPTION>24 
+<OPTION>25
+<OPTION>26
+<OPTION>27 
+<OPTION>28
+<OPTION>29
+<OPTION>30 
+<OPTION>31
+</SELECT>
+</FONT>
+</TD>
+
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">
+<FONT SIZE=2>
+<SELECT NAME=year>
+<OPTION SELECTED>:$year:
+<OPTION>1999
+<OPTION>2000
+<OPTION>2001
+<OPTION>2002 
+<OPTION>2003
+<OPTION>2004 
+<OPTION>2005
+<OPTION>2006 
+<OPTION>2007
+<OPTION>2008 
+<OPTION>2009
+<OPTION>2010 
+<OPTION>2011
+<OPTION>2012 
+<OPTION>2013
+<OPTION>2014 
+<OPTION>2015
+<OPTION>2016 
+<OPTION>2017
+<OPTION>2018 
+<OPTION>2019
+<OPTION>2020 
+</SELECT>
+</FONT>
+</TD> 
+
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">
+<FONT SIZE=2>
+<SELECT NAME=hour>
+<OPTION SELECTED>:$hour:
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>5
+<OPTION>6
+<OPTION>7
+<OPTION>8
+<OPTION>9
+<OPTION>10
+<OPTION>11
+<OPTION>12
+</SELECT>
+</FONT>
+</TD>
+
+
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">
+<FONT SIZE=2>
+<SELECT NAME=meridian>
+<OPTION SELECTED>:$meridian:
+<OPTION>AM
+<OPTION>PM 
+</SELECT>
+</FONT>
+</TD> 
+
+
+<TD BGCOLOR="ffffff" WIDTH="10%">
+&nbsp;
+</TD
+
+</TR>
+
+<!-- end duedate table -->
+
+<!-- begin priority table row and column -->
+
+<!-- begin priority table  -->
+
+<TR BGCOLOR="ffffff" WIDTH="100%">
+<TD ALIGN="LEFT" BGCOLOR="ffffff" COLSPAN="1" WIDTH="15%">
+<FONT FACE="Verdana" SIZE="3">Properties</FONT>
+</TD>
+<TD BGCOLOR="ffffff" COLSPAN="4" WIDTH="85%">&nbsp;</TD>
+</TR>
+
+<TR BGCOLOR="ffffff">
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">&nbsp;</TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Priority  </FONT></TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">   Status</FONT></TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE="3" FACE="Verdana">Share</FONT></TD>
+<TD BGCOLOR="ffffff" WIDTH="40%">&nbsp;</TD>
+</TR>
+
+<TR BGCOLOR="ffffff">
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">&nbsp;</TD>
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%"><FONT SIZE=2><SELECT NAME=priority>
+<OPTION SELECTED>:$priority:
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>5
+</SELECT>
+</FONT>
+</TD>
+
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">
+<FONT SIZE=2><SELECT NAME=status>
+<OPTION SELECTED>:$status:
+<OPTION>Done
+<OPTION>Undone
+<OPTION>Needs Action
+</SELECT>
+</FONT>
+</TD>
+
+<TD ALIGN="LEFT" BGCOLOR="ffffff" WIDTH="15%">
+<FONT SIZE=2><SELECT NAME=share>
+<OPTION SELECTED>:$share:
+<OPTION>Public
+<OPTION>Private
+</SELECT>
+</FONT>
+</TD>
+
+<TD BGCOLOR="ffffff" WIDTH="40%">&nbsp;</TD>
+
+</TR>
+
+<!-- end priority table -->
+
+<!-- end priority row -->
+
+</TABLE>
+
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="ffffff" WIDTH="100%">
+<TR BGCOLOR="ffffff" WIDTH="100%">
+<TD BGCOLOR="ffffff">
+<FONT FACE="Verdana" SIZE="3">Add Event Banner</FONT>
+</TD>
+<TD BGCOLOR="ffffff" COLSPAN="2">
+<TEXTAREA NAME=evtbanner ROWS="2" COLS="35">:$evtbanner:</TEXTAREA>
+</TD>
+</TR>
+</TABLE>
+
+
+</TD>
+</TR>
+</TABLE>
+<CENTER>
+<INPUT TYPE=submit NAME=add VALUE="Save">
+</CENTER>
+
+<!-- standard menu table footer -->
+</TD>
+
+<!--
+</FORM>
+</BODY>
+</HTML>
+-->

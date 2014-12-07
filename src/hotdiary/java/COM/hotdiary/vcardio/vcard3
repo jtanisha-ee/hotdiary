@@ -1,0 +1,18 @@
+VERSION:3.0
+FN:Tim Howes
+ORG:Netscape Communications Corp.
+ADR;TYPE=WORK:;;501 E. Middlefield Rd.;Mountain View;CA; 94043;U.S.A.
+TEL;TYPE=VOICE,MSG,WORK:+1-415-937-3419
+TEL;TYPE=FAX,WORK:+1-415-528-4164
+EMAIL;TYPE=INTERNET:howes@netscape.com
+
+VERSION:3.0
+FN:Smitha Gudur 
+ORG:HotDiary Inc.
+ADR;TYPE=WORK:P.O.BOX 360404;; 317 Edgewater Drive;Milpitas;CA; 95035;U.S.A.
+TEL;TYPE=VOICE,MSG,WORK:+1-408-956-8550
+TEL;TYPE=FAX,WORK:+1-423-589-0090
+TEL;TYPE=CELL,HOME:+1-616-929-9200
+EMAIL;TYPE=INTERNET:sgudur@hotmail.com
+URL:http://www.hotdiary.com
+

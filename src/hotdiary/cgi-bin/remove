@@ -1,0 +1,25 @@
+
+   $remove = $input{remove};
+   hddebug "remove = $remove";
+   $remove = $input{remove};
+   if ($remove ne "") {
+      $k = 0;
+      for ($i = $numbegin; $i <= $numend; $i= $i + 1) {
+          $appt = $input{"box$k"};
+          $checkboxval = $input{$appt};
+          if ($checkboxval eq "on") {
+             if (exists($appttabl{$appt})) {
+                delete $appttab{$appt};
+                withdrawmoney $login;
+             }
+          }
+          $k = $k + 1;
+      }
+      status("$login: You have successfully deleted the selected reminders. <BR>Click <a href=\"http://$vdomain/cgi-bin/$rh/execdogeneric.cgi?pnum=3&p0=$execpersonaldir&p1=biscuit&p2=jp&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=$HDLIC&biscuit=$biscuit&jp=$jp&rh=$rh&hs=$hs&vdomain=$vdomain&le4=os&re4=os&enum=5\">here</a> to go to contact manager.");
+
+      tied(%sesstab)->sync();
+      tied(%logsess)->sync();
+      tied(%appttab)->sync();
+      exit;
+   }              
+  

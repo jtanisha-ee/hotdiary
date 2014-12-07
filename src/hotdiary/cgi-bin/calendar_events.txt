@@ -1,0 +1,61 @@
+#id|datestamp|label|description
+1|00000101|New Year's Day|New Year's Day
+2|00000214|Valentine's Day|Valentine's Day
+3|00000317|St. Patrick's Day|St. Patrick's Day
+4|00000401|April Fool's Day|April Fool's Day
+5|00000704|Independence Day|Independence Day
+6|00001031|Halloween|Halloween
+7|00001111|Veterans Day|Veterans Day
+8|00001225|Christmas Day|Christmas Day
+9|19970120|Martin Luther King Jr. Day|Martin Luther King Jr. Day
+10|19970217|President's Day|President's Day
+11|19970323|Palm Sunday|Palm Sunday
+12|19970328|Good Friday|Good Friday
+13|19970330|Easter Sunday|Easter Sunday
+14|19970406|Daylight Savings Time Begins|Daylight Savings Time Begins
+15|19970422|Passover|Passover
+16|19970511|Mother's Day|Mother's Day
+17|19970526|Memorial Day|Memorial Day
+18|19970615|Father's Day|Father's Day
+19|19970901|Labor Day|Labor Day
+20|19971002|Rosh Hashanah|Rosh Hashanah
+21|19971011|Yom Kippur|Yom Kippur
+22|19971013|Columbus Day|Columbus Day
+23|19971026|Daylight Savings Time Ends|Daylight Savings Time Ends
+24|19971127|Thanksgiving Day|Thanksgiving Day
+25|19971224|Hanukkah|Hanukkah
+26|19980119|Martin Luther King Jr. Day|Martin Luther King Jr. Day
+27|19980216|President's Day|President's Day
+28|19980405|Daylight Savings Time Begins|Daylight Savings Time Begins
+29|19980405|Palm Sunday|Palm Sunday
+30|19980410|Good Friday|Good Friday
+31|19980411|Passover|Passover
+32|19980412|Easter Sunday|Easter Sunday
+33|19980510|Mother's Day|Mother's Day
+34|19980525|Memorial Day|Memorial Day
+36|19980621|Father's Day|Father's Day
+37|19980907|Labor Day|Labor Day
+38|19980921|Rosh Hashanah|Rosh Hashanah
+39|19980930|Yom Kippur|Yom Kippur
+40|19981012|Columbus Day|Columbus Day
+41|19981025|Daylight Savings Time Ends|Daylight Savings Time Ends
+42|19981126|Thanksgiving Day|Thanksgiving Day
+43|19981214|Hanukkah|Hanukkah
+44|19990118|Martin Luther King Jr. Day|Martin Luther King Jr. Day
+45|19990215|President's Day|President's Day
+46|19990328|Palm Sunday|Palm Sunday
+47|19990401|Passover|Passover
+48|19990402|Good Friday|Good Friday
+49|19990404|Daylight Savings Time Begins|Daylight Savings Time Begins
+50|19990404|Easter Sunday|Easter Sunday
+51|19990509|Mother's Day|Mother's Day
+52|19990531|Memorial Day|Memorial Day
+53|19990620|Father's Day|Father's Day
+54|19990906|Labor Day|Labor Day
+55|19990911|Rosh Hashanah|Rosh Hashanah
+56|19990920|Yom Kippur|Yom Kippur
+57|19991011|Columbus Day|Columbus Day
+58|19991024|Daylight Savings Time Ends|Daylight Savings Time Ends
+59|19991125|Thanksgiving Day|Thanksgiving Day
+60|19991204|Hanukkah|Hanukkah
+61|19981030|Calendar 2.0 Released|Calendar version 2.0 is released.

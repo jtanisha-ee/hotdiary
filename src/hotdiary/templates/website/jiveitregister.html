@@ -1,0 +1,474 @@
+<!--
+
+(C) Copyright 1997-2000 HotDiary Inc.
+
+ This software is confidential copyrighted information of HotDiary and
+ title to all copies is retained by HotDiary and/or its licensors.
+ Licensee shall not modify, decompile, disassemble, decrypt, extract,
+ or otherwise. This software may not be leased, assigned, or sublicensed,
+ in whole or in part.
+
+Information Common To All Templates
+
+- If you are viewing this page using the View Source utility
+of the browser, you will see information for a specific session
+as opposed to the generic template. So this may not be the
+best way to view the template. We suggest that you download
+the template using JiveIt! admin utility.
+
+- Please download this template on a regular basis to make sure
+you have taken advantage of new applications that HotDiary
+introduces on a regular basis.
+
+- You can customize this template to add your own structure
+and look n feel. These could include your own images, layout,
+style, fonts, color, java script, java, or even custom links. You
+can pass HotDiary variables as parameters to your custom links.
+This may help you to build seemless extensions to HotDiary and blend it
+more easily into your functional environment.
+
+- After you are done with customization, you can upload the
+template using the Admin link on your JiveIt! site. After you
+login into your admin account as an administrator, click the
+upload template link to upload the template. (For those of you
+who have customized the JiveIt Home template, make sure you
+preserve the Admin link. This will help you to administer
+your JiveIt! site more easily.)
+
+- Be careful with our link tags and parameters! As long as you
+keep those unharmed, you can move things around and design
+it using your favorite HTML authoring tool
+
+- All hotdiary variables are in the format :$var:, where var is
+the variable.
+
+Welcome To The JiveIt! Register Template. (Last Updated: Apr. 19, 2000)
+(jiveitregister.txt)
+
+-->
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<META HTTP-EQUIV="expires" Content="Expires:Wed Sep 23 20:51:20 1998">
+<META NAME="GENERATOR" Content="HotDiary Web Authoring Tool">
+<meta name=description content="Internet Personal Organizer with Self-Populating Address book, Appointments, Memos, Calendar, Collaborative Appointments, Pager, Fax, Voice, Email, contact management.">
+<meta name=keywords content="free, address, book, appointment, pager, fax, calendar, chat, group, personal, organizer, contact, manager, memo, to-do, planner, schedule, PIM, diary, business, cards, PDA, collaborate, events, meeting, self-populating, self-updating, virtual, communities">
+<meta http-equiv=Content-language content=en-US>
+<meta name=robots content="index, follow">
+<meta name=revisit-after content="10 days">
+<TITLE>:$title: - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+
+<!-- <BASE HREF="http://www.hotdiary.com/"> -->
+</HEAD>
+
+<BODY BGCOLOR="#ffffff">
+
+<FORM ACTION="cgi-bin/execregister.cgi" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" NAME="post">
+<INPUT TYPE=HIDDEN NAME=jp VALUE=":$jp:" SIZE="-1">
+<P>
+<CENTER>
+<H3>:$title: Registration</H3>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD><IMG SRC="/images/palmpilot.gif" BORDER=0 WIDTH=30 HEIGHT=30 ALT="Palm Pilot!"></TD>
+<TD><IMG SRC="/images/pager.gif" BORDER=0 WIDTH=25 HEIGHT=25 ALT="SkyTel Pager!"></TD>
+<TD><IMG SRC="/images/cellphone.gif" BORDER=0 WIDTH=30 HEIGHT=30 ALT="Nextel Cellphone!"></TD>
+</TR>
+<TR>
+<TD COLSPAN=3>
+<FONT SIZE=3 FACE="Verdana" COLOR=0000ff>Register to win!</FONT>
+</TD>
+</TR>
+<!--
+<TR>
+<TD COLSPAN=3>
+<FONT SIZE=1 FACE="Verdana">Register now with :$title: and HotDiary to qualify for one of these Internet goodies!</FONT>
+</TD>
+</TR>
+-->
+</TABLE>
+<HR ALIGN="CENTER">
+<IMG SRC=/images/memogroupcal.gif>
+<!-- SMARTCLICKS BANNER START:1 --> 
+<!--
+<table border="1" cellpadding="0" cellspacing="0" bgcolor="#AAAAAA"> 
+<tr><td>
+-->
+<!--
+<a href="http://ads.smartclicks.com/1/B272089/smartsite" target="_top"> 
+<img src="http://ads.smartclicks.com/1/B272089/smartbanner" 
+border="0" width="468" height="60" ismap></a></td></tr><tr><td>
+-->
+<!-- <a href="http://ads.smartclicks.com/1/XC2/B272089/clickbar" target="_top"> 
+<img src ="http://ads.smartclicks.com/1/XC2/B272089/smartbar" border="0" width="468" height="16" lowsrc="http://ads.smartclicks.com/XC2/litebar.gif" ismap></a> --> 
+<!-- </td></tr></table>  -->
+<!-- <a href="http://ads.smartclicks.com/1/XC2/B272089/clickbar" target="_top"> 
+<img src ="http://ads.smartclicks.com/1/XC2/B272089/smartbar" border="0" width="468" height="16" lowsrc="http://ads.smartclicks.com/XC2/litebar.gif" ismap></a></td></tr></table>  -->
+<!-- SMARTCLICKS BANNER END:1 --> 
+
+<!--
+<center> <A HREF="http://www.teknosurf2.com/cgi-bin/ads.pl?hotdiary+Q+register+1+advert=NonSSI"><img src="http://www.teknosurf2.com/cgi-bin/ads.pl?hotdiary+Q+register+1" alt="" width="468" height="60"><br></a> <font face="arial" size="2">
+-->
+<BR>
+<TABLE BORDER="6" CELLSPACING="0" CELLPADDING="10">
+<TR>
+<TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+
+<TR>
+<TD>
+<H2>Enter Your Basic Member Information</h2>
+<BR>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER>
+<TABLE BORDER="3" CELLSPACING="0" CELLPADDING="0">
+
+<TR>
+<TD BGCOLOR="#FF0000"><FONT SIZE="3" FACE="Verdana">Login/ID*</FONT></TD>
+<TD BGCOLOR="#FF0000"><INPUT TYPE="TEXT" NAME="login" SIZE="20" MAXLENGTH="64"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Password*</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="PASSWORD" NAME="password" SIZE="20" MAXLENGTH="20"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Repeat Password*</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="PASSWORD" NAME="rpassword" SIZE="20" MAXLENGTH="20"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FF8888"><FONT SIZE="3" FACE="Verdana">Make ID Public</FONT><BR>
+<FONT SIZE="2">Click here if you want<BR>
+to allow other members<BR>
+to add your contact to their<BR>
+address book.</FONT></TD>
+<TD BGCOLOR="#FF8888"> <INPUT TYPE="CHECKBOX" NAME="checkid"> </TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="#FF8888"><FONT SIZE="3" FACE="Verdana">Publish Calendar on Web</FONT><BR>
+<FONT SIZE="2">Click here if you want<BR>
+to publish your calendar<BR>
+on the internet. <BR>
+</FONT></TD>
+<TD BGCOLOR="#FF8888"> <INPUT TYPE="CHECKBOX" NAME="calpublish" :$calpublish:> </TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">External Email*</FONT><BR>
+<FONT SIZE=1 FACE="Verdana">(Double-check your email!<BR>If do not specify a correct<BR>email address, you will<BR>not be able to activate<BR>your account.)</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="email" SIZE="20" MAXLENGTH="64"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">First Name*</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="fname" SIZE="20" MAXLENGTH="20"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Last Name</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="lname" SIZE="20" MAXLENGTH="20"></TD>
+</TR>
+
+</TABLE>
+</CENTER>
+</TD>
+</TR>
+
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+<a href="#Street"><h2>Great! Now enter your street address!</h2></a>
+
+
+<BR><BR><BR>
+<BR><BR><BR>
+<p><a name="Street"></a>
+<TABLE BORDER="6" CELLSPACING="0" CELLPADDING="10">
+
+<TR>
+<TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+
+<TR>
+<TD ALIGN="CENTER">
+<h2>Enter Your Street Address</h2>
+</TD>
+</TR>
+
+<TR>
+<TD>
+
+<CENTER>
+<TABLE BORDER="3" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Street Address</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="street" SIZE="20" MAXLENGTH="50"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">City</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="city" SIZE="20" MAXLENGTH="20"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">State</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="state" SIZE="10" MAXLENGTH="10"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Zipcode</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="zipcode" SIZE="10" MAXLENGTH="10"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Country</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="country"  SIZE="10" MAXLENGTH="10"></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+</TD>
+</TR>
+
+</TABLE>
+
+</TABLE>
+
+<BR><BR>
+<a href="#Finally"><h2>Finally, your contact information!</h2></a>
+
+<BR><BR><BR>
+<BR><BR><BR>
+<p><a name="Finally"></a>
+<BR><BR>
+
+<TABLE BORDER="6" CELLSPACING="0" CELLPADDING="10">
+
+<TR>
+<TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+
+<TR>
+<TD>
+<h2>Enter Your Contact Information</h2>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER>
+<TABLE BORDER="3" CELLSPACING="0" CELLPADDING="0">
+
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Phone</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="phone" SIZE="20" MAXLENGTH="32"></TD>
+</TR>
+<TR>
+
+<TD BGCOLOR="#66FFFF">
+<FONT SIZE="2">
+<SELECT NAME=pagertype>
+<OPTION><FONT FACE="Verdana">SkyTel Pager</FONT></OPTION>
+<OPTION><FONT FACE="Verdana">AirTouch Pager</FONT></OPTION>
+<OPTION><FONT FACE="Verdana">Nextel Pager</FONT></OPTION>
+<OPTION><FONT FACE="Verdana">PageMart Pager</FONT></OPTION>
+<OPTION><FONT FACE="Verdana">Metrocall Pager</FONT></OPTION>
+<OPTION><FONT FACE="Verdana">Other Pager</FONT></OPTION>
+</SELECT>
+</FONT>
+</TD>
+
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="pager" SIZE="20" MAXLENGTH="32"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Fax</FONT></TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="fax"  SIZE="20" MAXLENGTH="32"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Cell Phone</TD></FONT>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="cellp"  SIZE="20" MAXLENGTH="32"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Bus. Phone</TD></FONT>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="busp"  SIZE="20" MAXLENGTH="32"></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">URL</TD></FONT>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME="url" SIZE="20" MAXLENGTH="64"></TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Time Zone</TD></FONT>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="2"><SELECT NAME=zone>
+<OPTION VALUE=-12>Dateline</OPTION>
+<OPTION VALUE=-11>Samoa</OPTION>
+<OPTION VALUE=-10>Hawaiian</OPTION>
+<OPTION VALUE=-9>Alaskan</OPTION>
+<OPTION VALUE=-8 SELECTED>Pacific</OPTION>
+<OPTION VALUE=-7>Mountain</OPTION>
+<OPTION VALUE=-6>Central</OPTION>
+<OPTION VALUE=-5>Eastern</OPTION>
+<OPTION VALUE=-4>Atlantic</OPTION>
+<OPTION VALUE=-3.5>Newfoundland</OPTION>  
+<OPTION VALUE=-3B>Brazil</OPTION>
+<OPTION VALUE=-3A>Argentina</OPTION>
+<OPTION VALUE=-2>Mid-Atlantic</OPTION>
+<OPTION VALUE=-1>Azores</OPTION>
+<OPTION VALUE=0>GMT</OPTION>
+<OPTION VALUE=1>W.Europe</OPTION>
+<OPTION VALUE=2>E.Europe</OPTION>
+<OPTION VALUE=3R>Russia</OPTION>
+<OPTION VALUE=3S>Saudi Arabia</OPTION>
+<OPTION VALUE=3.5>Iran</OPTION>
+<OPTION VALUE=4>Arabian</OPTION>          
+<OPTION VALUE=5>W.Asia</OPTION>
+<OPTION VALUE=5.5>India</OPTION>
+<OPTION VALUE=6>C.Asia</OPTION>
+<OPTION VALUE=7>Thailand</OPTION>
+<OPTION VALUE=7V>Vietnam</OPTION>
+<OPTION VALUE=7I>Indonesia</OPTION>
+<OPTION VALUE=8C>China</OPTION>
+<OPTION VALUE=8S>Singapore</OPTION>
+<OPTION VALUE=8T>Taiwan</OPTION>
+<OPTION VALUE=9J>Japan</OPTION>
+<OPTION VALUE=9K>Korea</OPTION>    
+<OPTION VALUE=9.5>C.Australia</OPTION>
+<OPTION VALUE=10>E.Australia</OPTION>
+<OPTION VALUE=12F>Fiji</OPTION>
+<OPTION VALUE=12N>New Zealand</OPTION>
+</SELECT>
+</FONT>
+</TD>
+</TR>      
+</TABLE>
+</CENTER>
+
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR><BR><BR>
+<p>
+<FONT SIZE="3" FACE="Verdana">How did you hear about us?</FONT>
+<select name="hearaboutus">
+<option>No Answer</option>
+<option>Windows Magazine/CMP Media</option>
+<option>World Best Website News</option>
+<option>PC Week</option>
+<option>ISP.com</option>
+<option>IcySpicy.com</option>
+<option>InternetWire</option>
+<option>Other Magazine/Periodical</option>
+<option>Link From Some Site</option>
+<option>HotDiary Inc</option>
+<option>HotDiary Member</option>
+<option>Email</option>
+<option>Other News</option>
+<option>Web Ad</option>
+<option>Search Engine</option>
+<option>LinkExchange</option>
+<option>Directory</option>
+<option>Other</option>
+</select>
+<br><BR><BR>
+<LEFT>
+<INPUT TYPE="CHECKBOX" NAME="cserver">Check here if you would like to register for single domain free JiveIt! B2B license.<BR><BR>
+<INPUT TYPE="CHECKBOX" NAME="informme" CHECKED>Check here if you would like to receive important email updates from :$title: and HotDiary.<BR><BR>
+<INPUT TYPE="CHECKBOX" NAME="acceptit" CHECKED>I accept :$title: and HotDiary<sup><small>TM</small></sup> Agreement.
+<a href="register.html#Agreement">View Agreement.</a>
+</LEFT>
+</CENTER>
+<BR><BR><BR>
+<CENTER>
+<INPUT TYPE="SUBMIT" NAME="register" VALUE="Register Now">
+<BR><a href=http://caselaw.lp.findlaw.com/cacodes/pen/484-502.9.html><FONT FACE=Verdana SIZE=4>Submitting False Identity Is An Offense Under CA Penal Code Section 484-502.9</FONT></a><BR>
+</CENTER>
+<P>
+
+<CENTER>
+
+<BR><BR><BR>
+<BR><BR><BR>
+
+<p><a name="Agreement"></a>
+
+<TABLE BORDER=1 WIDTH="75%">
+<TR>
+<TD>
+
+<!-- *********************************** -->
+
+<h2>Member Agreement</h2>
+<P><FONT SIZE="2" FACE="Verdana">As a member of :$title: and HotDiary<sup><small>TM</small></sup> you agree to accept the following terms and conditions.</FONT></P>
+<OL Type="A">
+<LI><FONT SIZE="2" FACE="Tahoma, Arial, Helvetica, sans-serif"><I>This policy can change during the life of your membership - </I>We reserve the right to change the contents of this policy during the life of your membership with :$title: and HotDiary. Please also note, that we may not inform you about the changes made to this policy. We recommend that you visit this site often to make sure you understand the policy. However, please note that we will inform you, if any of our free services  become paid services, if you have chosen the "Inform Me" checkbox while registering or in your profile, and you have specified a valid email address. It is not our responsibility to notify you about this, if the email address you have specified is not valid.
+</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Mailing unsolicited material or &quot;Spamming&quot; - </I>You cannot use
+:$title: and HotDiary<sup><small>TM</small></sup> to send or engage in &quot;Spam&quot; or unsolicited email to anyone. If you give any :$title: and HotDiary<sup><small>TM</small></sup> information
+to other &quot;spammers&quot; you will be held responsible for this action.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Offensive or profane language - </I>You cannot use :$title: and HotDiary<sup><small>TM</small></sup> to send any offensive
+or profane material to anyone. You also cannot use any hate language that may offend anyone.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Basic membership - </I>By registering online with :$title: and HotDiary you automatically become a basic member. Basic membership is free.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>You are responsible for your actions - </I>You are responsible for any actions
+you perform while using :$title: and HotDiary<sup><small>TM</small></sup>. If using :$title: and HotDiary<sup><small>TM</small></sup> causes any damage whatsoever to you or anyone you know, we
+are not responsible for this.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>We do not guarantee delivery of messages or actions - </I>We do not guarantee
+the delivery of any messages to you or others by email and pager, even if the destination addresses
+and numbers you specify are correct. In case of premium members, if fax messages are not delivered because of a :$title: and HotDiary connection error, you will receive a refund for those un-delivered messages.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Optional Premium Membership - </I>If you have registered for premium membership you
+agree to give us valid check or credit card and related contact information. Your membership dues must be received
+on time, in order to continue your premium membership. If for some reason
+we do not receive your dues within the due date, we automatically convert your account to the basic free membership
+account. This means you will not be able to access some of the features that are only available for premium members.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Payment Method For Premium Members- </I>Payments in case of premium membership can be made by bank check
+or credit card. All checks must be in US dollars. There is a US $25.00 fee for all bounced checks. Visa/MasterCard
+credit card payments will be accepted only in US dollars. Basic membership is free.</FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Message Content & Delivery - </I> You represent that the information submitted for transmission via the :$title: and HotDiary for Internet service is for lawful purposes only and that the transmission of messages or files is not in violation of any federal or State laws or regulations. Customer agrees to accept all responsibilities for conforming to "community standards" of conduct when transmitting messages. Customer agrees to indemnify and hold :$title: and HotDiary and its agents harmless from any and all claims, losses, damages, judgments, expenses and costs (including any attorney's fees and expenses) arising out of the delivery of any information, the infringement of any trademark or copyright.
+:$title: and HotDiary reserves the right to terminate the Customer's :$title: and HotDiary for Internet service at any time without notice to the Customer for any reason. Any messages
+sent by :$title: and HotDiary to users on behalf of the :$title: and HotDiary members, either as
+invitations to events or invitations to join :$title: and HotDiary are entirely a responsibility of the member. 
+:$title: and HotDiary makes no warranties of any kind, expressed or implied for the :$title: and HotDiary
+for internet services provided. :$title: and HotDiary further disclaims any warranty or
+merchantibility or fitness for a particular purpose. This disclaimer
+includes loss of data resulting from delays, nondeliveries, wrong
+deliveries, and any all service interruptions caused by the negligence of
+:$title: and HotDiary and its employees or by the customer's errors and omissions. </FONT>
+<LI><FONT SIZE="2" FACE="Verdana"><I>Premium Membership Rates - </I> :$title: and HotDiary may increase the rates in case of premium services and will inform you if you are already a premium member, atleast 30 days in advance, as long as you provide a valid email address.
+</FONT>
+<LI><FONT SIZE="2" FACE="Tahoma, Arial, Helvetica, sans-serif"><i>Reward Details - </i>HotDiary offers many reward incentives to it's members which include but are not limited to JiveIt! Rewards, <FONT COLOR=gold>GoldReward</FONT>, Referral Reward, JazzIt! Co-branding Free Licenses, and Usage Reward. In all cases the rewards are determined and approved based on fair use of the system, and fair as judged by HotDiary Inc. Any or all rewards assigned to a member can be revoked at anytime whatsoever without the consent of the member, and without any notice whatsoever. Commissions associated with all rewards are stipulated by HotDiary Inc., and are subject to change without prior notice.
+<LI><FONT SIZE="2" FACE="Verdana"><I>Dislosing Incorrect Information - </I>It is entirely your responsibility to disclose the correct information about yourself when you use :$title: and HotDiary. If information such as email address for instance, is
+incorrectly entered, your account information will be accessible to anyone who owns the incorrect information. We also disallow you from using :$title: and HotDiary, if you use (intentionally or unintentionally) a wrong email address or other information while registering or using :$title: and HotDiary. We reserve the right to report your personal information to the person owning this email address. We have no way to verify that the person owning this email address is different from you. In some cases, if we observe abuse of :$title: and HotDiary as described above, we will ask the person who owns the email address you reported at the time of registration or later, to contact you, by revealing your complete personal information to the other party. Note that we are strongly discouraging you from using someone else's email address and we do not distinguish this from a potential spamming activity that you may be engaging in.
+</FONT>
+<LI><FONT SIZE="2" FACE="Tahoma, Arial, Helvetica, sans-serif"><i>Data Integrity , Permanence, Persistence And Safety - </i> We do not gaurantee the integrity of your data on our server. We also do not gaurantee that your data will permanently reside on our server. We may choose to delete it at any time without giving any warning. We do not gaurantee the persistence of data on our server, in the event of server shutdowns, company shutdowns, power failures or any major event. We do not gaurantee that your data is safe on our server. Parts of the data may get deleted or wiped out without any advance warning. :$title: and HotDiary server may crash at any time without giving any advance warning to you, and we will not gaurantee that your data will stay intact on our server. In fact all your data may be deleted at any time. This policy also applies to customers who have paid premium money to store data on our server, and not just to customers who use our free service. Please also note that we do not gaurantee 24 hour fail-safe uptime for our servers. We may take down our servers at any time without giving any advance notice.
+<LI><FONT SIZE="2" FACE="Tahoma, Arial, Helvetica, sans-serif"><i>This policy is not the master copy - </i>Please note that this policy you have read is not the master policy of HotDiary Inc. The master policy document is located at the URL address http://www.hotdiary.com/user_agreement.html. The content in the master policy overrides all content in this document or policy. We do not gaurantee that the content of this document stays current. We suggest that you take a look at the master policy to make sure that you have understood all it's terms and agreements before you continue with the registration or use of :$title: and HotDiary. By accepting this policy, you are automatically bound to all the terms and agreements in the master policy even if you do not read them.
+</OL>
+
+<!-- *********************************** -->
+
+</TR>
+</TABLE>
+
+<BR><BR><BR>
+<INPUT TYPE="SUBMIT" NAME="register" VALUE="Register Now">
+<BR><a href=http://caselaw.lp.findlaw.com/cacodes/pen/484-502.9.html><FONT FACE=Verdana SIZE=4>Submitting False Identity Is An Offense Under CA Penal Code Section 484-502.9</FONT></a><BR>
+</CENTER>
+
+
+
+
+</FORM>
+
+</BODY>
+
+</HTML>

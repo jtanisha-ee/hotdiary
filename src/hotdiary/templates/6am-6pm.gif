@@ -1,0 +1,25 @@
+<IMG SRC=\"$images/6am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/7am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/8am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/9am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/10am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/11am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/12am.gif\" WIDTH=16 HEIGHT=30>
+<IMG SRC=\"$images/1pm.gif\" WIDTH=16 HEIGHT=30>
+               $time .= "<IMG SRC=\"$images/2pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/3pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/4pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/5pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/6pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/7pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/8pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/9pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/10pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/11pm.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/12am.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/1am.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/2am.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/3am.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/4am.gif\" WIDTH=16 HEIGHT=30>";
+               $time .= "<IMG SRC=\"$images/5am.gif\" WIDTH=16 HEIGHT=30>";
+

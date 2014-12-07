@@ -1,0 +1,260 @@
+<!--
+
+(C) Copyright 1997-2000 HotDiary Inc.
+
+ This software is confidential copyrighted information of HotDiary and
+ title to all copies is retained by HotDiary and/or its licensors.
+ Licensee shall not modify, decompile, disassemble, decrypt, extract,
+ or otherwise. This software may not be leased, assigned, or sublicensed,
+ in whole or in part.
+
+Information Common To All Templates
+
+- If you are viewing this page using the View Source utility
+of the browser, you will see information for a specific session
+as opposed to the generic template. So this may not be the
+best way to view the template. We suggest that you download
+the template using JiveIt! admin utility.
+
+- Please download this template on a regular basis to make sure
+you have taken advantage of new applications that HotDiary
+introduces on a regular basis.
+
+- You can customize this template to add your own structure
+and look n feel. These could include your own images, layout,
+style, fonts, color, java script, java, or even custom links. You
+can pass HotDiary variables as parameters to your custom links.
+This may help you to build seemless extensions to HotDiary and blend it
+more easily into your functional environment.
+
+- After you are done with customization, you can upload the
+template using the Admin link on your JiveIt! site. After you
+login into your admin account as an administrator, click the
+upload template link to upload the template. (For those of you
+who have customized the JiveIt Home template, make sure you
+preserve the Admin link. This will help you to administer
+your JiveIt! site more easily.)
+
+- Be careful with our link tags and parameters! As long as you
+keep those unharmed, you can move things around and design
+it using your favorite HTML authoring tool
+
+- All hotdiary variables are in the format :$var:, where var is
+the variable.
+
+Welcome To show client info template . (Last Updated: Mar. 26, 2000)
+
+-->
+
+
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+
+<FORM ACTION="/cgi-bin/saveclientinfo.gi" METHOD="POST" :$formenc:>
+
+<FONT FACE="Verdana" SIZE="1">
+
+<CENTER>
+<TABLE WIDTH="100%">
+<TR>
+<TD ALIGN=LEFT WIDTH="15%">:$logo:</TD>
+<TD ALIGN=CENTER WIDTH="85%">
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label:</b></FONT><BR>
+<FONT FACE="Verdana" SIZE="3">Manage My Account</FONT>
+</CENTER>
+</TD>
+<TD WIDTH="15%">
+</TD>          
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+<BR>
+
+<BR><BR>
+
+<CENTER>
+<TABLE WIDTH="60%" CELLPADDING=0 CELLSPACING=5>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Login </FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=login VALUE=:$login:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Mame</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=name VALUE=:$name:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Description</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=desc VALUE=:$desc:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Banner</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=banner VALUE=:$banner:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Account</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=account VALUE=:$account:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Cost Per Click </FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=clickcost VALUE=:$clickcost:>
+</TD>
+</TR>
+
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Email</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=email VALUE=:$email:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Policy</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=policy VALUE=:$policy:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Street</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=street VALUE=:$street:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>City</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=city VALUE=:$city:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>State</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=state VALUE=:$state:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Zipcode</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=zipcode VALUE=:$zipcode:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Country</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=country VALUE=:$country:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Street</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=street :$street:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Email</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=email VALUE=:$email:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>URL</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=url VALUE=:$url:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Category</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=category VALUE=:$category:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Category</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=category VALUE=:$category:>
+</TD>
+</TR>
+
+
+<TR ALIGN=CENTER>
+<TD COLSPAN=2 ALIGN=CENTER>
+<FONT FACE=Verdana SIZE=3><INPUT TYPE=SUBMIT NAME=save VALUE=Save></FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+</FORM>
+</BODY>
+</HTML>

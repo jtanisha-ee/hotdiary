@@ -1,0 +1,192 @@
+
+Content-type: text/html
+
+<HTML>
+<HEAD>
+<!-- <META HTTP-EQUIV="expires" Content="Expires:$expiry:"> -->
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+
+<BASE HREF="http://www.hotdiary.com/">
+</HEAD>
+<!-- <BODY BACKGROUND="images/pad.gif"> -->
+<BODY BGCOLOR=ffffff>
+
+<P><TABLE CELLSPACING="0" >
+<TR><TD WIDTH="35%"><FONT SIZE="1"><i>Welcome :$login:</i></FONT></TD>
+<TD WIDTH="85%" COLSPAN="2" ><B>:$label:</B><BR><FONT SIZE="2">:$label1:</FONT><BR><FONT SIZE="1">:$label2:</FONT></TD>
+<TD ALIGN="RIGHT" WIDTH="15%"><a href="faq.html"><FONT SIZE="2" FACE="Verdana">Help</FONT></a></TD></TR></TABLE>
+</P>
+
+<!-- stdmenutblhdr.html -->
+
+<FORM ACTION=":$actioncgi:" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" NAME="post">
+<INPUT TYPE="HIDDEN"  NAME="biscuit" SIZE="-1" VALUE=":$biscuit:">
+<TABLE BORDER="0"><TR><TD WIDTH="5%"></TD><TD>
+<TABLE BORDER="6" BGCOLOR="#66FFFF" BORDERCOLOR="#00FFFF" CELLPADDING="0" CELLSPACING="0"><TR><TD>
+<TABLE BORDER="0" BGCOLOR="#999900" WIDTH="100%" CELLSPACING="0">
+
+
+
+<!-- menutodotbl.html-->
+<TABLE BORDER="0" CELLPADDING="8" CELLSPACING="0">
+
+<P><FONT FACE="Verdana"></FONT>
+
+<TD WIDTH ="60%">
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="#66FFFF">
+
+<TR>
+<TD>
+<P><FONT SIZE="3" FACE="Verdana">Todo Title</FONT></P>
+<INPUT TYPE="TEXT" NAME=":$subjecfield:" SIZE="20" MAXLENGTH="64"
+ VALUE=":$subject:"></TD>       
+<TD>
+<P><TEXTAREA NAME="subject" ROWS="1" COLS="45"></TEXTAREA></P>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<P><FONT SIZE="3" FACE="Verdana">Description</FONT></P>
+<P><TEXTAREA NAME="desc" ROWS="5" COLS="45"></TEXTAREA></P>
+</TD>
+</TR>
+
+<TR>
+<TD>
+
+<!-- begin due date table -->
+<TABLE>
+<TR>
+<TD><P><FONT FACE="Verdana" SIZE="3">Due Date</FONT></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Month</FONT></TD>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Day</FONT></TD>
+<TD BGCOLOR="#66FFFF"><FONT SIZE="3" FACE="Verdana">Year</FONT></TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="#FF0000"><FONT SIZE=-1><SELECT NAME=month>
+<OPTION VALUE=:$monthnum: SELECTED>:$month:</OPTION> 
+<OPTION VALUE=1>Jan</OPTION><OPTION VALUE=2>Feb</OPTION>
+<OPTION VALUE=3>Mar</OPTION><OPTION VALUE=4>Apr</OPTION>
+<OPTION VALUE=5>May</OPTION><OPTION VALUE=6>Jun</OPTION>
+<OPTION VALUE=7>Jul</OPTION> <OPTION VALUE=8>Aug</OPTION>
+<OPTION VALUE=9>Sept</OPTION> <OPTION VALUE=10>Oct</OPTION>
+<OPTION VALUE=11>Nov</OPTION><OPTION VALUE=12>Dec</OPTION>
+</SELECT>
+</FONT>
+</TD>
+<TD BGCOLOR="#66FFFF"><FONT SIZE=-1><SELECT NAME=day>
+<OPTION SELECTED>:$day:</OPTION>
+<OPTION>1</OPTION><OPTION>2</OPTION> <OPTION>3</OPTION>
+<OPTION>4</OPTION><OPTION>5</OPTION> <OPTION>6</OPTION> 
+<OPTION>7</OPTION><OPTION>8</OPTION> <OPTION>9</OPTION> 
+<OPTION>10</OPTION><OPTION>11</OPTION> <OPTION>12</OPTION> 
+<OPTION>13</OPTION><OPTION>14</OPTION> <OPTION>15</OPTION> 
+<OPTION>16</OPTION><OPTION>17</OPTION> <OPTION>18</OPTION> 
+<OPTION>19</OPTION><OPTION>20</OPTION> <OPTION>21</OPTION> 
+<OPTION>22</OPTION><OPTION>23</OPTION> <OPTION>24</OPTION> 
+<OPTION>25</OPTION><OPTION>26</OPTION> <OPTION>27</OPTION> 
+<OPTION>28</OPTION><OPTION>29</OPTION> <OPTION>30</OPTION> 
+<OPTION>31</OPTION>
+</SELECT>
+</FONT>
+</TD>
+<TD  BGCOLOR="#66FFFF"><FONT SIZE=-1><SELECT NAME=year>
+<OPTION SELECTED>:$year:</OPTION>
+<OPTION>1999</OPTION><OPTION>2000</OPTION>
+<OPTION>2001</OPTION><OPTION>2002</OPTION> 
+<OPTION>2003</OPTION><OPTION>2004</OPTION> 
+<OPTION>2005</OPTION><OPTION>2006</OPTION> 
+<OPTION>2007</OPTION><OPTION>2008</OPTION> 
+<OPTION>2009</OPTION><OPTION>2010</OPTION> 
+<OPTION>2011</OPTION><OPTION>2012</OPTION> 
+<OPTION>2013</OPTION><OPTION>2014</OPTION> 
+<OPTION>2015</OPTION><OPTION>2016</OPTION> 
+<OPTION>2017</OPTION><OPTION>2018</OPTION> 
+<OPTION>2019</OPTION><OPTION>2020</OPTION> 
+</SELECT>
+</FONT>
+</TD> 
+</TR>
+</TABLE> <!-- end duedate table -->
+
+</TD>
+</TR>
+
+<!-- begin priority table row and column --->
+<TR>
+<TD>
+
+<!-- begin priority table  -->
+<TABLE BORDER="0" CELLPADDING="8" CELLSPACING="0">
+<TR>
+<TD><FONT SIZE="3" FACE="Verdana">Priority  </FONT></TD>
+<TD><FONT SIZE="3" FACE="Verdana">   Status</FONT></TD>
+<TD><FONT SIZE="3" FACE="Verdana">Share</FONT></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#66FFFF"><FONT SIZE=-1><SELECT NAME=priority>
+<OPTION SELECTED>:$priority:</OPTION>
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>5
+</SELECT>
+</FONT>
+</TD>
+
+<TD BGCOLOR="#66FFFF"><FONT SIZE=-1><SELECT NAME=status>
+<OPTION SELECTED>:$status:</OPTION>
+<OPTION>Done
+<OPTION>Undone
+<OPTION>Needs Action
+</SELECT>
+</FONT>
+</TD>
+
+<TD BGCOLOR="#66FFFF"><FONT SIZE=-1><SELECT NAME=share>
+<OPTION SELECTED>:$share:</OPTION>
+<OPTION>Public
+<OPTION>Private
+</SELECT>
+</TD>
+
+</TR>
+</TABLE> <!-- end priority table -->
+
+</TD>  
+</TR> <!-- end priority row -->
+
+</TABLE>
+</TD>
+</TABLE>
+
+
+<!-- standard menu table footer -->
+
+</TABLE>
+</TD></TR></TABLE>
+</TD></TD></TABLE>
+
+<CENTER>
+<P><INPUT TYPE="IMAGE" SRC="images/add.gif" border="0" NAME="add">
+<SPACER TYPE HORIZONTAL" SIZE="30">
+<SPACER TYPE="HORIZONTAL" SIZE="30">
+<SPACER TYPE="HORIZONTAL" SIZE="30">
+<INPUT TYPE=image SRC="images/cancel.gif" border="0" NAME="cancel">
+
+</CENTER>
+</FORM>
+
+<!-- stdpgftr.html -->
+
+<P> <BR></P>
+</HTML>
+</BODY>
+
+
+

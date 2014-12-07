@@ -1,0 +1,18 @@
+
+1. Make sure you are logged in as hotdiary. This will ensure that you
+get the correct CLASSPATH. The other alternative is make sure you
+get the environment from config/hd.env file.
+
+2. To use DbSet, try:
+
+java COM.hotdiary.main.DbSet "create table tsmitha (pno int, pname varchar)"
+
+java COM.hotdiary.main.DbSet "insert into tsmitha values (1234, 'manoj')"
+java COM.hotdiary.main.DbSet "insert into tsmitha values (2348, 'smitha')"
+
+3. To use DbGet, try:
+
+cd test
+./execjavaprog
+
+4. java COM.hotdiary.main.DbSet "drop table tsmitha"

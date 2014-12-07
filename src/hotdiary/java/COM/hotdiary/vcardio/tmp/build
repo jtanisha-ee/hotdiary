@@ -1,0 +1,6 @@
+
+
+javac vcard.java
+javac ../main/jvcard.java
+
+

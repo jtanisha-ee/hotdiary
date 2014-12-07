@@ -1,0 +1,106 @@
+
+makefile
+
+	This builds eventfeed server. The entire server is
+	packaged in efs.jar file. The jar file can be installed 
+	in a directory visible to the CLASSPATH. In this case the
+	directory is $HDHOME/java
+
+efs.jar
+
+	This contains all the objects for the eventfeed server.
+	the package is COM.hotdiary.eventfeed
+
+makefile.client
+
+	This builds eventfeed client. The entire client is packaged
+	in efc.jar file. The jar file can be installed on the client
+	system.
+
+efc.jar
+
+	This contains all the objects for the eventfeed client.
+        There is no package for the client. However the client
+	needs to import the package COM.hotdiary.eventfeed.
+
+Interface File - EFServer.java
+
+	This defines the interface between the client and server.
+	It has objects and methods defined. To compile this file:
+	javac EFServer.java
+	The makefile takes care of building above stuff.
+
+Server Implementation File  - EFServerImpl.java
+
+	This implements the interface above. To compile this file:
+	javac EFServerImpl.java
+	The makefile takes care of building above stuff.
+
+Client Implementation File - EFClient.java
+
+	This is the client that talks to the above server
+	javac EFClient.java
+	The makefile takes care of building above stuff.
+
+Stubs and Skels File
+
+	Everytime me the above classes change, you need to regenerate
+	the stubs for client and server:
+
+	rmic COM.hotdiary.eventfeed.EFServerImpl
+
+	This will generated a stub and and skel file. 
+	The makefiles take care of building all above stuff.
+
+
+Running the RMI registry
+
+	First run the RMI registry. This needs to be run only once.
+	But it is better to start it and stop it each time you re-run
+	the EFServerImpl  server.
+	
+	To start the RMI registry,
+
+	rmiregistry&
+
+	For your convenience I have already started it.
+
+	There is no graceful way to stop it. The only way to stop it
+	is use the hdregstop command, which kills all the java processes
+	on the system. This could even accidentally kill the skytel
+	and other java processes if they are running a that moment.
+	Hence one needs to be careful to run this when cron is not
+	running.
+
+
+Running the RMI server
+
+	Once above registry is started, you can start the RMI server
+	in a separate window:
+
+	java COM.hotdiary.eventfeed.EFServerImpl
+
+	(There is a convenience command to start eventfeed server,
+	and it is recommended to use this command):
+
+	/usr/local/admin/bin/efserver
+
+	To stop the server. Try the hdregstop
+	command above, it should kill even this server, since it is
+	also a java process.  I am currently working on a more graceful
+	way to stop. Perhaps we can implement a command called SHUTDOWN
+	which the server can implement.
+
+	I have modified hdregstop so that it will not kill processes
+	owned by "nobody". This means only development processes will
+	be killed. No production processes will be killed. 
+
+Running the RMI client
+
+	To run the RMI client
+
+	java EFClient
+
+	Currently this client is just non-GUI. Once we get all the event
+	stuff working, we can convert this into GUI. Right now let's
+	get th basic API working

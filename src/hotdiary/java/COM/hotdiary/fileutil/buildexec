@@ -1,0 +1,11 @@
+
+ROOTDIR=/usr/local/hotdiary/java/COM/hotdiary/fileutil
+
+rm $ROOTDIR/classes/*.class
+CLASSPATH=$ROOTDIR/classes;$CLASSPATH
+cd hotdiary/fileutil
+javac -d $ROOTDIR/classes  *.java
+cd $ROOTDIR/programs
+javac -d $ROOTDIR/classes *.java
+cd $ROOTDIR
+export ROOTDIR CLASSPATH

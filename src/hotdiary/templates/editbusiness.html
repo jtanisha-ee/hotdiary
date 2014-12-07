@@ -1,0 +1,229 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+
+<FORM ACTION="/cgi-bin/:$rh:/execdogeneric.cgi" METHOD="POST" :$formenc:>
+:$hiddenvars:
+<FONT FACE="Verdana" SIZE="1">
+
+<CENTER>
+<TABLE WIDTH="100%">
+<TR>
+<TD ALIGN=LEFT WIDTH="15%">:$logo:</TD>
+<TD ALIGN=CENTER WIDTH="85%">
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label:</b></FONT><BR>
+<FONT FACE="Verdana" SIZE="3">My Downtown - B2B Planner</FONT>
+</CENTER>
+</TD>
+<TD WIDTH="15%">
+</TD>          
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+
+<TABLE BORDER="1" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
+<TR>
+<TD>
+
+<TABLE BORDER="0" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR BGCOLOR=dddddd>
+<TD BGCOLOR=dddddd ALIGN="LEFT"><FONT FACE="Verdana" SIZE="3">:$welcome: :$login:</FONT></TD>
+<TD BGCOLOR=dddddd ALIGN="RIGHT"><FONT FACE="Verdana" SIZE="3">
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execproxylogout:&p1=biscuit&p2=jp&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Logout</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execshowtopcal:&p1=biscuit&p2=jp&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Home</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&page=jintranetwhatsnew.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">What's New</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&page=jintranetfeatures.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Features</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&page=jhelp.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Help</a>
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<TABLE CELLPADDING=2 CELLSPACING=2>
+<TR>
+
+<TD WIDTH="15%">
+<IMG SRC="http://www.hotdiary.com/images/downtownlogo.jpg">
+</TD>
+
+<TD WIDTH="85%">  
+<CENTER>
+<TABLE WIDTH="60%" CELLPADDING=0 CELLSPACING=5>
+<TR VALIGN=TOP>
+<TD COLSPAN=2 ALIGN=CENTER>
+<FONT FACE=Verdana SIZE=4>Edit Business Settings (:$business:)</FONT>
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Name</FONT>
+</TD>
+<TD>
+:$business:
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Title</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businesstitle VALUE=":$businesstitle:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Street Address</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businessstreet VALUE=":$businessstreet:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Suite Number</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businesssuite VALUE=":$businesssuite:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>City</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businesscity VALUE=":$businesscity:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>State</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businessstate VALUE=":$businessstate:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Zipcode</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businesszipcode VALUE=":$businesszipcode:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Country</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businesscountry VALUE=":$businesscountry:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Phone</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businessphone VALUE=":$businessphone:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Fax</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businessfax VALUE=":$businessfax:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Email</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businessemail VALUE=":$businessemail:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>URL(BookMark)</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=businessurl VALUE=":$businessurl:">
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>List Your Business</FONT>
+</TD>
+<TD>
+<INPUT TYPE=CHECKBOX NAME=businesslist :$businesslist:>
+</TD>
+</TR>
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT> 
+<FONT FACE=Verdana SIZE=3>Other</FONT>
+</TD>
+<TD>
+<TEXTAREA NAME="businessother" ROWS=5 COLS=30>:$businessother:</TEXTAREA></TD>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD COLSPAN=2 ALIGN=CENTER>
+<!-- <TD ALIGN=CENTER WIDTH="100%"> -->
+<FONT FACE=Verdana SIZE=3><B>Select Company Calendar View</B></FONT>
+</TD>
+</TR>
+<! --
+<TR ALIGN=CENTER>
+<TD COLSPAN=2 WIDTH="75%" ALIGN=LEFT><FONT FACE=Verdana SIZE=3>Display all events in company calendar and events of personal calendars of all employees</FONT>
+</TD>
+<TD WIDTH="25%">
+<INPUT TYPE="RADIO"  NAME=radio1 VALUE=mcview :$mcval:>
+</TD>
+</TR>
+-->
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT WIDTH="75%" COLSPAN=2>
+<FONT FACE=Verdana SIZE=3>Display company calendar events</FONT>
+</TD>
+<TD WIDTH="25%">
+<INPUT TYPE="RADIO" NAME=radio1 VALUE=cview :$cval:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT WIDTH="75%" COLSPAN=2><FONT FACE=Verdana SIZE=3>Display events of all employees personal calendar.</FONT>
+</TD>
+<TD WIDTH="25%">
+<INPUT TYPE="RADIO" NAME=radio1 VALUE=mview :$mval:>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD COLSPAN=2>
+<FONT FACE=Verdana SIZE=3 COLSPAN=2><INPUT TYPE=SUBMIT NAME=Save VALUE=Save></FONT>
+</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

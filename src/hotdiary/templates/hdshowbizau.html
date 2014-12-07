@@ -1,0 +1,194 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - Personal & Business Application Service Provider, Events Reminder Publish Calendar Organizer Memo To-Do Pager Fax Groups Planner Free Private Theme Club</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+
+<FORM ACTION="/cgi-bin/:$rh:/execupdategroupcal.cgi" METHOD="POST" ENCTYPE="aplication/x-www-form-urlencoded">
+<FONT FACE="Verdana" SIZE="1">
+<INPUT TYPE="HIDDEN"  NAME="biscuit" SIZE="-1" VALUE=":$biscuit:">
+<INPUT TYPE="HIDDEN"  NAME="pnum" SIZE="-1" VALUE=":$pnum:">
+<INPUT TYPE="HIDDEN"  NAME="calname" SIZE="-1" VALUE=":$calname:">
+:$pparms:
+
+<CENTER>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD WIDTH="15%">:$logo:</TD>
+<TD>
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label: (Secure)</b></FONT><BR>
+<FONT FACE="Verdana" SIZE="3">Home of Public and Private Events</FONT><BR>
+<FONT FACE="Verdana" SIZE="3"><a href=":$searchcal:">Search</a>, <a href=":$createcal:">Create</a>, and Manage Calendars</FONT><BR>
+</TD>
+
+<TD WIDTH="15%">
+<a href="http://www.hotdiary.com"><FONT FACE="Verdana" SIZE="1">Powered By HotDiary</FONT></a>
+</TD>
+</TR>
+</TABLE>                    
+</CENTER>
+
+<BR>
+
+<TABLE BORDER="1" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
+<TR>
+<TD>
+
+<TABLE BORDER="0" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR BGCOLOR=dddddd>
+<TD BGCOLOR=dddddd ALIGN="LEFT"><FONT FACE="Verdana" SIZE="3">:$welcome: :$login:</FONT></TD>
+<TD BGCOLOR=dddddd ALIGN="RIGHT"><FONT FACE="Verdana" SIZE="3">
+<a href=":$percal:">Personal Calendar</a> -
+<a href=":$home:">Home</a> -
+<a href="http://www.hotdiary.com/cgi-bin/execdeploypage.cgi?biscuit=:$biscuit:&page=jwhatsnew.html">What's New?</a> -
+<a href="http://www.hotdiary.com/cgi-bin/execdeploypage.cgi?biscuit=:$biscuit:&page=jfeatures.html">Features</a> -
+<a href="http://www.hotdiary.com/cgi-bin/execdeploypage.cgi?biscuit=:$biscuit:&page=jhelp.html">Help</a>
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<CENTER>
+<FONT FACE="Verdana" SIZE="4">Select Background Audio Clip
+<BR><BR>
+<FONT FACE="Verdana" SIZE="3">
+Enter the URL for your audio clip. For instance: http://funsite.com/audioclips/
+<TABLE BORDER="0" WIDTH="60%" CELLPADDING="10" CELLSPACING="0">
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Enter URL of audio clip:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=TEXT NAME="aclip" VALUE="http://:$aclipval:"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Calendar Type:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3">
+<SELECT NAME=ctype>
+<OPTION SELECTED>:$ctype:
+<OPTION>Intranet
+<OPTION>Association
+<OPTION>Friends
+<OPTION>Organization
+<OPTION>Office
+<OPTION>Club
+<OPTION>School
+<OPTION>Family
+<OPTION>Institution
+</SELECT>
+</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Organization/Company Name:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=TEXT NAME=corg VALUE=":$corg:" SIZE="20" MAXLENGTH="64"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Calendar Name:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3">:$calname:</FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Calendar Title:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=TEXT NAME=caltitle VALUE=":$caltitle:" SIZE="20" MAXLENGTH="64"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Calendar Admin Password:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=PASSWORD NAME=calpassword VALUE=":$calpassword:" SIZE="20" MAXLENGTH="64"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Calendar Admin Password (Repeat):</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=PASSWORD NAME=calrpassword VALUE=":$calrpassword:" SIZE="20" MAXLENGTH="64"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Calendar Description:</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><TEXTAREA NAME=cdesc ROWS="5" COLS="35">:$cdesc:</TEXTAREA></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Check here if you would like to publish this calendar. (Users will still need a password to view it, since this is a private calendar.)</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=CHECKBOX NAME=cpublish :$cpublish:></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Check here if you donot want to list this calendar
+. (This calendar will not be listed when others search.)</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=CHECKBOX NAME=listed :$listed:></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3">Check here only if you the calendar master would like to edit it. Others  can only view it.</FONT>
+</TD>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=CHECKBOX NAME=readonly :$readonly:></FONT>
+</TD>
+</TR>
+
+     
+</TABLE>
+
+<FONT FACE="Verdana" SIZE="3">
+<INPUT TYPE=submit NAME=submit VALUE="Submit">
+</FONT>
+
+<FONT SIZE="3" FACE="Verdana"></FONT>
+</CENTER>
+
+</FONT>
+</CENTER>
+<FONT SIZE="3" FACE="Verdana">:$status:</FONT>
+
+</BODY>
+</HTML>

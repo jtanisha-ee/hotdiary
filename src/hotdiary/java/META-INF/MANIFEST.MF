@@ -1,0 +1,792 @@
+Manifest-Version: 1.0
+
+Name: muffin/About.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hUjCJ7eD11mQVthJejqOZX1W8Fw=
+MD5-Digest: A+nz7zyqkQo7zZQCrgZjwA==
+
+Name: muffin/BigList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eI2Rq0z8g+v56BshPI5jbIpfEgM=
+MD5-Digest: Frpu+VkhXDKoN065vFEUkA==
+
+Name: muffin/CanvasMonitor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: L1/Bs8McWY6hEsN/pYyfKfqqA/Y=
+MD5-Digest: u9utFxKPQtyc73c/WqrkKQ==
+
+Name: muffin/Client.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bSJgrJz8YAT3Cc6iEczpnEF9Srk=
+MD5-Digest: TvweiQ0/inc3F8XSbyesZw==
+
+Name: muffin/ConfFileFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3mzDhTLgzKmTMwcsNWE+9gc2QAg=
+MD5-Digest: RpFf9+n8Us6Pw7t8zshRpQ==
+
+Name: muffin/Configuration.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AgNWfP4kAQUMUqkpTkBjPM0QlSY=
+MD5-Digest: A2TJTt9TPbVb2UWGrBAtdQ==
+
+Name: muffin/ConfigurationFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3mLkMqnKZMjGWvvhxxZ67lgIgK4=
+MD5-Digest: s9SmWOZRzp7OG7A41PjN/g==
+
+Name: muffin/ConfigurationListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: EjakznmBPlHaHLXV0YSumIMuryc=
+MD5-Digest: yxjTLfRPtOG+v1BYx9Tvwg==
+
+Name: muffin/Connection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HsCyqveTHnh5ZAWRcx9S5Z2Geew=
+MD5-Digest: dZjG5j7q0n5ESZgwosAeyw==
+
+Name: muffin/ConnectionsFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XOqCcsDA2XbXEdGegib0o1LeHIY=
+MD5-Digest: NTKa/BT0xw0k/AnWAIsMSw==
+
+Name: muffin/ContentFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0O8BeGcwRGf1+O7wEZ4fbgwLiEA=
+MD5-Digest: oDH80z+LvP/sNsDnWa4/yw==
+
+Name: muffin/Cookie.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JN2AWje/44Gx77jZ6TYf8JEAvF4=
+MD5-Digest: sd5D5uc6jU9KBu/z5OHtrg==
+
+Name: muffin/Filter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: b74iI0fSQaYW9IDmRLH0E/ZF5Co=
+MD5-Digest: BYg9UbKZklKPz9bISOJsuQ==
+
+Name: muffin/FilterException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GCCVrGwJSEohfEC8wiWLN6GuxMg=
+MD5-Digest: hoRqnJrzNFVYHDG1KynTgQ==
+
+Name: muffin/FilterFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: q3Jxr+4z0cVCbz8PnOIrXE1K9Vs=
+MD5-Digest: K95axP26898OHLRXaKdeEg==
+
+Name: muffin/FilterManager.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4Fj/EjpXouFfUrqB1hhkgAonMp4=
+MD5-Digest: bzzCEL53DBIlKU0xyUEq9g==
+
+Name: muffin/FilterManagerFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: LOKgVShdSgLc405j/dNLRQT9CHw=
+MD5-Digest: y7FdeOAby18sxpjxvUm3oA==
+
+Name: muffin/Handler.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vxiiugeKfM2n0l91KqwJoGswhn8=
+MD5-Digest: gAg+6WL8GxOAGQ7CJ1JXjg==
+
+Name: muffin/Http.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IfUsTvjQF5+2R4qoY4m25WvVjO4=
+MD5-Digest: tcBXi6I/TqwpUCNnRK8yMQ==
+
+Name: muffin/HttpError.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: c65IjLOZLr+CGX0r1MQycLzc/kM=
+MD5-Digest: 31mA5mxWNcOAP1i44BSZ7Q==
+
+Name: muffin/HttpRelay.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +vuQm6fh7YQ3uUCtfe21HSiZGp0=
+MD5-Digest: 0NIWcaZkb4k1HqT1aGVQEg==
+
+Name: muffin/Httpd.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: r8Zm4GFHHGMXQSzjUHE5zw+1lN4=
+MD5-Digest: dodzO4d0VDG/BDGUa+p53A==
+
+Name: muffin/Icon.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 012hdCx9WuzC+i9maA+PPOWndBc=
+MD5-Digest: wnn8g+d1SyQcCKJSTd9KMQ==
+
+Name: muffin/ImageCanvas.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lcMgGifdlCIvJGYTjsF8onlKvNo=
+MD5-Digest: ixzRy3rsVKTXLbp85Ad5JQ==
+
+Name: muffin/Key.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RoK6McmNxwzHZyMFnwXy4QkMN2I=
+MD5-Digest: /ZnXDOGbhbO2oUlV84nWmQ==
+
+Name: muffin/Main.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ehIH0bTfYtK/5lbPgfTYgVMd0sg=
+MD5-Digest: qPQsIEGsbCov5czay24gLA==
+
+Name: muffin/Message.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qJKhYw2ldoMbw8T5xF/lkeiFF40=
+MD5-Digest: 8qNFay2TIIcgAZG37XDyCA==
+
+Name: muffin/MessageArea.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Opd7rGiMZC0SAsgRqEe2X6LJmcA=
+MD5-Digest: 3Zl6f4vRFODJi/z+NMko6g==
+
+Name: muffin/Monitor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MabHnJSx12Q2vnr1pJiTm7NWDPI=
+MD5-Digest: EbUpe41bD2hjJwRR+aZdkg==
+
+Name: muffin/Options.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: D7H6eZIYKFld0QRPooaAkNwMSCE=
+MD5-Digest: YJ7HXNmAPRqqyNecQlMH6Q==
+
+Name: muffin/OptionsFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JY7EJYJyTvufABe2AW2DZhhqhZ8=
+MD5-Digest: mhASyah+vf41Pv49qmtJ+A==
+
+Name: muffin/Prefs.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Up7ndU3KYEHi8rtjhsuwQoiWvwM=
+MD5-Digest: ocVzCA5on+dSuGpN9y8XLQ==
+
+Name: muffin/Proxy.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4yMup+rjYzgE7RhoT8P4Jp74McY=
+MD5-Digest: TWzzmdyKO0iOv/PvMdHZXw==
+
+Name: muffin/RedirectFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rrmHyt0Ya2fmxDYUNE2mdBKKpa8=
+MD5-Digest: dI3YOkikVBe13WrjbB6bYw==
+
+Name: muffin/RegexFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: e6T280hPt9WeYB6nTVEsBIVKqKc=
+MD5-Digest: D70EIy8nxBE43Z5EgtXQQQ==
+
+Name: muffin/Reply.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bFdxH/hUH01vgU3PHuT+KtFIgu4=
+MD5-Digest: kE+8XLRN9PtHKJBVNqMQQw==
+
+Name: muffin/ReplyFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2alN1ykNw2oZq9kVyzeez68moB8=
+MD5-Digest: TPHeyqv1ZtkGVl6SfzCojg==
+
+Name: muffin/Request.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: l3kSRSySdzZMC1u0BQOO9ngBuZo=
+MD5-Digest: WyJBh8nlRWIv8S4w1+xAOw==
+
+Name: muffin/RequestFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1fHOfMwHVvOCUoRIsvxNXKCK2CI=
+MD5-Digest: OsjydHrHm6//lcY+kEQ8hA==
+
+Name: muffin/Server.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RHdvXKfNZOfirB6q5Q0NjNn6/yw=
+MD5-Digest: 9dKIgtLpJ2mJApgxnuUtAQ==
+
+Name: muffin/SocketManager.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HNdeUrl6nxgl5C3mhoxplLpN3Ko=
+MD5-Digest: wjM940xeK9qY5eunkPQ/5Q==
+
+Name: muffin/SortedProperties.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: quRBoqxqDf4tLxxfJjQnmyIJmH0=
+MD5-Digest: 30/TdHstib6IS8uzFO8q0Q==
+
+Name: muffin/TextDialog.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mqL557B6W+67mCPc5lJaP1Dmce4=
+MD5-Digest: UX0b6AXtEbIwPzHk9B13Ng==
+
+Name: muffin/TextMonitor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: LvHE6WDY00OCXBN8rrlE10FbwNI=
+MD5-Digest: CkzEMAJWonw1KNHMB4Eq6g==
+
+Name: muffin/ThreadsFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nS21bYcD6AlmlUKDjxCa1hlTAU8=
+MD5-Digest: bEqupG9Q7XFC1u8D7IlmMg==
+
+Name: muffin/UserPrefs.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: V/kJjVQHsK4tQW2m9MTXl6eUsuA=
+MD5-Digest: YjjwsR0GpHhnEGi/J1vZxA==
+
+Name: muffin/YesNoDialog.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yC5yVmWRi96uk1f4nlS67eMFwkQ=
+MD5-Digest: 1rciCtgBQVAhcjou0Y1r8Q==
+
+Name: muffin/images/mufficon.jpg
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hDQZ3PN+7H8yYc3Ln3MbveevxVU=
+MD5-Digest: WUXxiqtmFPn2fFCXH7svFA==
+
+Name: muffin/images/muffin.jpg
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nmaZkjT7h+k+N6pdKDL1wdvlBfk=
+MD5-Digest: Oj1KkKuph7qtXYO688jjiw==
+
+Name: muffin/images/nomuff.jpg
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jZj++k+t1Ut+VuuWxOt6eVAYLaU=
+MD5-Digest: FyvZX84WI0Fc2/9EjdHPag==
+
+Name: muffin/images/sdsu.jpg
+Digest-Algorithms: SHA MD5 
+SHA-Digest: G0NjxK//TLpgt50wlLpPY/UYZnY=
+MD5-Digest: mHJl7Rvu/7sNLBNsEJA4/Q==
+
+Name: muffin/filter/AnimationKiller.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: EEyP10tI/tfTpDEm8qm7GZzyESc=
+MD5-Digest: hw52PomonxhxEMdBUZb9CQ==
+
+Name: muffin/filter/AnimationKillerFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HNZeIb1hf1+9jzGXUrjTrc51eKI=
+MD5-Digest: ph0dDK6G5llUmoXCYhWdVg==
+
+Name: muffin/filter/AnimationKillerFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: e77dT9BFezpIzxuao5a/Ov00Z1M=
+MD5-Digest: A6hp6PfjwxAiBuQvdDFykw==
+
+Name: muffin/filter/ColorSample.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: SRFsGiBr46RitpidKU3H/JPGAME=
+MD5-Digest: /teYh9M2oPjsh9UD0Ivzjw==
+
+Name: muffin/filter/CookieMonster.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0cHp7tZKyKdqJm0hpZjO7Yvvjmg=
+MD5-Digest: Y6ldYW0+jt5yVi0aSE02bQ==
+
+Name: muffin/filter/CookieMonsterFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /AlVrkxoZ+zOkSHemKSu9gzWuJc=
+MD5-Digest: CkB0SLnP7wNmlApmzAX1zw==
+
+Name: muffin/filter/CookieMonsterFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tWUJwiNZ7Gg0tldt90lcreEPS8Y=
+MD5-Digest: q2d0qovAzlrNJpqDkRN7Cw==
+
+Name: muffin/filter/Decaf.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pZW2ZZ5z6mDw0w0YkEJGEOLlUQg=
+MD5-Digest: bliRy8AkPuIHNS0C688Rcg==
+
+Name: muffin/filter/DecafFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vcLGdtccFDk+w21ROjYbYboDYQ0=
+MD5-Digest: fQ/IbH0hM1o4wNo4ATAdsQ==
+
+Name: muffin/filter/DecafFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XmSEX1AdHK95hOmO0p2v5A95l/s=
+MD5-Digest: c1BmWLXgN8rqsOoFVHE5Fg==
+
+Name: muffin/filter/DocumentInfo.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: h0N0wU6qONR6vgHPW+DzFYdJvvk=
+MD5-Digest: yYX4RRz/vAI5m4jeVV0oEw==
+
+Name: muffin/filter/ForwardedFor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: e9JnJc568Du01nvCkBeH54h/ZX4=
+MD5-Digest: uODsude1WI9nzu81toZ9cw==
+
+Name: muffin/filter/ForwardedForFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UWJYBkU+cGaiDABFa8EfUGrvvxE=
+MD5-Digest: e/qOoc8mAmJYGQD8Vd1KVQ==
+
+Name: muffin/filter/Glossary.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qndp3fNF63Fr9GQ7XN3PvFQU00o=
+MD5-Digest: xtrCtsquKd6otVoCiWfjAw==
+
+Name: muffin/filter/GlossaryFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DJ5XwOVgg1urFR0aGtwHGT56GSI=
+MD5-Digest: C0bN/Z+X0a9cF05T6m8SGA==
+
+Name: muffin/filter/GlossaryFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ikrUcvr3zZQGNrWxaM8l633uP8Y=
+MD5-Digest: Imp/CWdEUP6Tp35SFAbQ8w==
+
+Name: muffin/filter/HostnameExpander.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cvAXHLQC99UiRAlh1wAcIt8CwL8=
+MD5-Digest: L69Ztz5nxCcsKdsD6DfEaw==
+
+Name: muffin/filter/HostnameExpanderFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hYNT0sPDtVKvQ75/XqtQXjdvNEc=
+MD5-Digest: 1xsBNY9ULrYWs9P0q5h3dA==
+
+Name: muffin/filter/HostnameExpanderFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6CQUulvUsjfIW+4t+F9C/1H/zOQ=
+MD5-Digest: xB9SCT7GuCCbOdw3GZCbmw==
+
+Name: muffin/filter/Logger.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HdY8bKBTQJAjBIFPum5VCjfeDZY=
+MD5-Digest: eTpfvJF3sOBkJXTAcGoD/g==
+
+Name: muffin/filter/LoggerFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QFCAwfGK80GquoQVZ7OH6IWL310=
+MD5-Digest: 5b1PEnKV2waZW1t9XCMl8A==
+
+Name: muffin/filter/LoggerFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rOfUSjuowukSoMR9XvMffbKujVs=
+MD5-Digest: GBSJqC7hxy3RUJwgo0gr2A==
+
+Name: muffin/filter/NoThanks.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DYOm+34I9YomF7HgESbctZxwSZQ=
+MD5-Digest: hwHh+kevZpQtEfPIysQM/g==
+
+Name: muffin/filter/NoThanksFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1RRthVtfYHrfin0jBKTyfqgEHMI=
+MD5-Digest: bvEpqi64HBOZg3I3ofsNcw==
+
+Name: muffin/filter/NoThanksFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5BWRrOl8kJ60S0Kq2gBkkAivU/A=
+MD5-Digest: 2VZVHxZsFBYt1bW7Q0plrA==
+
+Name: muffin/filter/Painter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: e+d/QMCj8UabQ1GsE4/6cl2ynMs=
+MD5-Digest: UaXOrOaIEL/+B5/CUTE8wg==
+
+Name: muffin/filter/PainterFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: O2aNGgvadSsyOJMMg92hmzOV0Og=
+MD5-Digest: IOH5/t2y7PzYD5leMHIcTQ==
+
+Name: muffin/filter/PainterFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Ok3vY3YJM0B/b6VHDEonRhXpizQ=
+MD5-Digest: WEu+kTxZ9khY+gMu9vm2IQ==
+
+Name: muffin/filter/Preview.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: p/ccKoKw6EYN57Jj+01b/MkT3NI=
+MD5-Digest: n/5utQpyPFtiA9bGu45d7g==
+
+Name: muffin/filter/PreviewDialog.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WrNyp41PCKeY1cYwzQEN1kucaR0=
+MD5-Digest: 1sa7Lhj+sVB3Q3f6n3QKBw==
+
+Name: muffin/filter/PreviewFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yN3cL4jPDBebJz+kNDMviIf9A1o=
+MD5-Digest: VrG4/5xRdFkW3RhrnQz4sQ==
+
+Name: muffin/filter/PreviewFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ytH3KxA/GDU+uts67GQWcSZKN9M=
+MD5-Digest: B9pkZCJAce6McjdtewvqwA==
+
+Name: muffin/filter/Referer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0VOYv9s8zscnU/9Pd3VT4/badBw=
+MD5-Digest: 9nDojVNSYQEWLP6sT4BjNg==
+
+Name: muffin/filter/RefererFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5/ixc0/MttQFhzawyUeD5t2FBHk=
+MD5-Digest: c1LM5iqJ9Ke70m5T5cKG9w==
+
+Name: muffin/filter/RefererFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: y3v2HNbNsV9kgcaDMcdNZYvFhvA=
+MD5-Digest: eZ0f6VM1ru2AvQjhrhpqqw==
+
+Name: muffin/filter/SecretAgent.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U3sa0sW7NGw6r96C6CcOUlE+XmM=
+MD5-Digest: z6t6nkt4dkFKf5s6Fvfxsg==
+
+Name: muffin/filter/SecretAgentFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9Lf8zJJhTkImXmg8DNkg/5F4KaM=
+MD5-Digest: DxohIhgpwxh5B/e+eLX9sg==
+
+Name: muffin/filter/SecretAgentFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Clbr7FaBjr1rilHtGCG3YMKL474=
+MD5-Digest: Exk4apKy/RPPGgbcrf3QQA==
+
+Name: muffin/filter/SecretServer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DuokaDmkbURvAVb+vo3tWZDxYOk=
+MD5-Digest: +Ziq31bIU55T1ek6aCF89g==
+
+Name: muffin/filter/SecretServerFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: OKstoB8B4dQoeaOK1I+7k134Qtg=
+MD5-Digest: YgnfVfYfL46XLNLWnjTJSw==
+
+Name: muffin/filter/SecretServerFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ISxHMc99w/HoS9eOQ0Wxa1eIBao=
+MD5-Digest: TJcrb1LbjgTfnhk8H4fwcQ==
+
+Name: muffin/filter/Secretary.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8Fr42dMv4pcZrri1qeSUcTioW74=
+MD5-Digest: Sn0TBRczYODGRa4rgtO8Iw==
+
+Name: muffin/filter/SecretaryFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AXEIvgjLW3g2joo5LRyn+WaSYpg=
+MD5-Digest: lJNf91GqbC16kz7P3MHq/Q==
+
+Name: muffin/filter/SecretaryFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U167uLfe2B+wPm/7B/gcAdwivwY=
+MD5-Digest: e5/tJiQbIBoz3WWZqnnvIw==
+
+Name: muffin/filter/Snoop.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dGNc33MqQJ/zy2etLMMY2F/fGHA=
+MD5-Digest: oV+gv5L+r2n+2ueZE5ikow==
+
+Name: muffin/filter/SnoopFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XPu2bpFj3IacGdMdxZH/RcLIx7s=
+MD5-Digest: 8H9hvM5UmNn9HefD5csx9g==
+
+Name: muffin/filter/SnoopFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qgNdyMVMvvC2CHu4gwj2KaxezIU=
+MD5-Digest: N9rldGuIBwpeQa4I0V3w+g==
+
+Name: muffin/filter/Stats.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 26fQfgJKgh6HdxDRcHqC4NguQeU=
+MD5-Digest: 0RBXdLWQ6iOKAKwn30XfTQ==
+
+Name: muffin/filter/StatsFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: C4Pml/aTIfWt7J47d1/9OUZI4zI=
+MD5-Digest: XlTOUXJDyxwPs17vO1FQ3g==
+
+Name: muffin/filter/StatsFrame.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Jo+38hdMsVPaDj3EBNmRnuHVEt0=
+MD5-Digest: GYRzj5I5Zx95y/ITVKLc9w==
+
+Name: muffin/filter/Test.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yEs5mjMLTG7J8buWoCJD91jvEWU=
+MD5-Digest: 3uJk0Rqg2lLphws1roLoPg==
+
+Name: muffin/filter/TestFilter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Ut5sbkhZoiM9+cU907+nqDtt5iI=
+MD5-Digest: ir/kTXGsrWhg8u93Klu08Q==
+
+Name: muffin/filter/Tester.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xqvzbx2SfmvxYcoUUCa1zb3UMAk=
+MD5-Digest: uHmaMQMn0VvdF3SnzC338Q==
+
+Name: muffin/html/HtmlTokenizer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qlSTTVdJ7nLO2BMf7QcxGugpVTc=
+MD5-Digest: 6oI75WRAlQMoQd85Po+mIQ==
+
+Name: muffin/html/Tag.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MakOxLbP7z4xTukUsch9uQ0Ht3o=
+MD5-Digest: afReyJ62J1vNI/tntyZ0Ow==
+
+Name: muffin/html/Token.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: P0McIbuIwqRIqf/gkF3CMgRIFUk=
+MD5-Digest: daAyvvSc7fcg9bASS1G9Cg==
+
+Name: muffin/io/ByteArray.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kGy0iKEDOLGskZgwQA5JHHF/epU=
+MD5-Digest: 3G/8/ZSsV2fSOncTeVqLzQ==
+
+Name: muffin/io/HtmlObjectStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IfdqZJoI9RbDcPrELkwu9iEla7M=
+MD5-Digest: 2n6hjENgb9kSCZO0a1TKfg==
+
+Name: muffin/io/InputObjectStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yRFPx25zMIGUXvrcMgyImmHHDt8=
+MD5-Digest: vSOCLAjPLFR/yr5eXV04Yg==
+
+Name: muffin/io/ObjectStreamToInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ALPtg7WrL4oyc/qRqMOlBugNmfo=
+MD5-Digest: 9hJwW3HIaEJNvVW0luuaqg==
+
+Name: muffin/io/ObjectStreamToOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GtK8TDucx5UYTO2syx7+Ius6BEI=
+MD5-Digest: jj+2VAQ/FOOwWerh3fs1eA==
+
+Name: muffin/io/OutputObjectStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0B51ZY92GrUqP2ii2Q9DSw1qH+o=
+MD5-Digest: hf7kj4+DlvuSj1iwmobRig==
+
+Name: muffin/io/SourceObjectStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: i4khSo1tIyyurxdFLgoUffS+Jc4=
+MD5-Digest: L1SYouAP8xsyIDgRYUazZg==
+
+Name: sdsu/compare/Comparator.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RgvIpQ/nDeevP9wYl53dLjRKsMk=
+MD5-Digest: 1pLCcFB0X9a2UJc+aO922g==
+
+Name: sdsu/compare/Comparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1xuLciiDC8Tiv9QLHsCATR/FxwA=
+MD5-Digest: 1Uc3FSVDBk/pR+l1WID09A==
+
+Name: sdsu/compare/DoubleComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: zFlF6E7lFFw+BUHb4AvRXKgiITA=
+MD5-Digest: A5wGXYPTD5QCabqptz0m0g==
+
+Name: sdsu/compare/FloatComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 07SZ1Ey8laG05LzLsxGgPciUAuE=
+MD5-Digest: 8xdJFP1M/y051LDtlyT2ng==
+
+Name: sdsu/compare/IntegerComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MpApxtLp9NO/fTOFcozJWn4Zs60=
+MD5-Digest: nekuu00ZKwWjgeCezgq38g==
+
+Name: sdsu/compare/LinearOrderComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: OwkRKvpWupyuhniyIoNoKCLJglw=
+MD5-Digest: 243+F8uCXmbhclGQWQtUhg==
+
+Name: sdsu/compare/LongComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: evoIgdZxK775kdSoliQcSyL4jD8=
+MD5-Digest: JkkYVY73HGWzOyOwBBhe7w==
+
+Name: sdsu/compare/ReverseOrderComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lkSBDdbD8DEWM1Xt1vi2+AV+Xgo=
+MD5-Digest: s3BqsZH7ZiiRDJDzoyi0vg==
+
+Name: sdsu/compare/StringComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 89gtTh1iPFD66loozHdqevLHaZw=
+MD5-Digest: ABcJYppGLm5joovjQJL2jw==
+
+Name: sdsu/compare/StringIgnoreCaseComparer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GJyFRNzaJDHwkO06C4aLzfFIiBw=
+MD5-Digest: AU/8L5AhxGfBg77m7fEjZQ==
+
+Name: sdsu/util/ConversionException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vXg/AhcUqXOoDGU6q/qFuKC+MuA=
+MD5-Digest: MlpAaREuQjlNXbUBfzzsPQ==
+
+Name: sdsu/util/LabeledData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2cJ0fGJ7JW6JlDY5DirvFw0Lw54=
+MD5-Digest: DY7kRdmWzmeiu07P2ViKxw==
+
+Name: sdsu/util/LabeledTable.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cEwQqftZJNq1ZmbTvrzuz8V2Hno=
+MD5-Digest: +wD1RRsevTSlIzgkkIrywA==
+
+Name: sdsu/util/List.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qdxtKQxuNQf02iv7WUHMoeuDiCI=
+MD5-Digest: 9ZeH1XH3JSchp6yMsNquCg==
+
+Name: sdsu/util/OrderedCollection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U4LvQsKgs5njXk2B0CMPc06hzHg=
+MD5-Digest: orllFn4MpWpkxYjDHlkKRA==
+
+Name: sdsu/util/ReverseListEnumerator.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xYq3nUtCJQxkJTe4RCEL4SNYbUM=
+MD5-Digest: ukcuFN+jkg0Hb/Ch5RzVPA==
+
+Name: sdsu/util/SimpleTokenizer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ElTEa/pSIFgYi+P6AoU0KdcL3mI=
+MD5-Digest: TkslEb694rcX8ioItqrg4g==
+
+Name: sdsu/util/SortedCollection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6llcohgJIKUvIKRYazh+TsaCiYA=
+MD5-Digest: hfiZlvhhpJahBF4iaNcKRw==
+
+Name: sdsu/util/SortedList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: t2pAjGslD6VFOaw6aS6UKNOWPWU=
+MD5-Digest: w5KqcnB8TF3QFATLtAIrlQ==
+
+Name: sdsu/util/Stringizable.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BFqg1v1L95z8pnY7+/qEFElDNms=
+MD5-Digest: 88jTpQoUaVbtZPCLskTK+g==
+
+Name: sdsu/util/Stringizer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mizvKgT9e8ec91Fxs++imibFrUg=
+MD5-Digest: 4J5eKSpKDd47/CyS2S3/eA==
+
+Name: sdsu/util/Table.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: z20+VZ3/lKn8CX2WVrH2vFOnH3o=
+MD5-Digest: SfhPDrIpM/pb+6UUCPqpDQ==
+
+Name: sdsu/util/Template.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Hj/JfKMT8FHw8k/IxUk1gMpLbkk=
+MD5-Digest: 4wXTEo5c9XdEPTgNmprPjg==
+
+Name: sdsu/util/TokenCharacters.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DvwWyUnYol6CnMMLVNeQ6N7FEPI=
+MD5-Digest: HI4c26n0qTsXQOW3JhSzEQ==
+
+Name: JP/ac/osaka_u/ender/util/regex/Chars.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xBsccpA5WHWdZtiQyhoC+ZUXPrw=
+MD5-Digest: uKXJdiDaU3CbrRjcxnG0lw==
+
+Name: JP/ac/osaka_u/ender/util/regex/DList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GZAOrTo2ULX4s7y84ymQCKG86Os=
+MD5-Digest: P5bd7/UbLqlZUt48Mzu73Q==
+
+Name: JP/ac/osaka_u/ender/util/regex/DSList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9XcAPgUdMGXFTT62Wfx0rjj+6Sg=
+MD5-Digest: qHTV4BH7cdwrklHIHprX8w==
+
+Name: JP/ac/osaka_u/ender/util/regex/DState.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZG55yIFWsBoG0/9WK1NXT4Y6LII=
+MD5-Digest: hO8jyrw3iM3xf9EvgjYUcg==
+
+Name: JP/ac/osaka_u/ender/util/regex/MatchInfo.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tBxKLkW5tl+Wt0bNSwT9Hz5t300=
+MD5-Digest: Tt2DP4zQaDqoVGfa/DidtA==
+
+Name: JP/ac/osaka_u/ender/util/regex/NFABuildException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cUx0oS47HRb0xb9eX+9dL7JssVU=
+MD5-Digest: 6xKo+gbVW5NtWjzb4x0SYg==
+
+Name: JP/ac/osaka_u/ender/util/regex/NList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1DVQarmRSV8tfdjga7PAf3YRBnc=
+MD5-Digest: dgawv82vCOKQjWesGHx5fg==
+
+Name: JP/ac/osaka_u/ender/util/regex/RTree.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: R84RFdkSXAOtDVSqHHexxNqtgKM=
+MD5-Digest: HaJ+R8f5f9m7nhwZwTvWQw==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExp.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: viZaSS23xOjTZcmUOplj+7MNLLs=
+MD5-Digest: 7mhRmvXr+1DhX1id56CnUw==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExpCore.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: y5NwOdAx43sXeEaT5pRhHLu7Lhw=
+MD5-Digest: MEdn8vq96Q6Dxs3G6BfYQA==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExpDFA.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jJ/AHMYEv1LRcDN2Y4MmZYHuFEY=
+MD5-Digest: lBrH8CjoyiW0Ipw9hsQabQ==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExpDebug.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Grl12HzBUAU+xAkRmoibML5l270=
+MD5-Digest: 1AauesfU0g7sXWxk4Xfz7Q==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExpNFA.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: H5ocbqpC5Vjc0FIAzqL9Zee0WyM=
+MD5-Digest: 9UIrRxUy0kVv0gF5L9uXrQ==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExpParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +TQbg2HUSf3wWUXSA0fHtFg2ZXg=
+MD5-Digest: eOUD5fe7j0SqcVDEb6ehMQ==
+
+Name: JP/ac/osaka_u/ender/util/regex/RegExpSyntaxException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jX1aEJ7fYRoZpvE0PeoaN8pXRDg=
+MD5-Digest: h62dA4GemrRiLIB7hI1Zpw==
+
+Name: UK/co/demon/asmodeus/util/CharStack.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: j1o/saWjQwrmU99pfO5bNu/FiN8=
+MD5-Digest: uEohYbVvxj8hy4mMO00Y2g==
+
+Name: UK/co/demon/asmodeus/util/FileLineEnumerator.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: TH6+s1xZsKgtZVsszHClza+ieM0=
+MD5-Digest: pF6tqp+fXrHIXfjZtzEbCQ==
+
+Name: UK/co/demon/asmodeus/util/MultiSearch.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IgtKc7QyHZeRFJQ/NfoeprUj8kc=
+MD5-Digest: s5sOj6k3OH9fi0shtZD5bQ==
+
+Name: UK/co/demon/asmodeus/util/MultiSearchReader.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: l5T0rjUVV0mRAnkgiiaWVWa5wnw=
+MD5-Digest: qZw9UC1svL9a8UdZvs/iyw==
+
+Name: UK/co/demon/asmodeus/util/MultiSearchResult.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4Y7pauowiBg5IN0QIHNNmnqsk5I=
+MD5-Digest: rquvRCWVuPSs8qNYh5GOJg==
+

@@ -1,0 +1,188 @@
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+<FORM METHOD=POST ACTION="https://secure.authorize.net/gateway/transact.dll">
+
+     <INPUT TYPE=HIDDEN NAME="x_Version" VALUE="3.0">
+     <INPUT TYPE=HIDDEN NAME="x_Login" VALUE="hotdiary">
+     <INPUT TYPE=HIDDEN NAME="x_Show_Form" VALUE="PAYMENT_FORM">
+     <INPUT TYPE=HIDDEN NAME="x_Amount" VALUE=":$amount:">
+     <INPUT TYPE=HIDDEN NAME="x_Cust_ID" VALUE=":$login:">
+     <INPUT TYPE=HIDDEN NAME="x_Description" VALUE=":$x_description:">
+     <INPUT TYPE=HIDDEN NAME="x_Invoice_Num" VALUE=":$invoicenum:">
+
+
+<FONT FACE="Verdana" SIZE="1">
+
+<CENTER>
+
+
+<TABLE WIDTH="100%">
+<TR>
+<TD ALIGN=LEFT WIDTH="15%"><a href="http://www.hotdiary.com"><IMG SRC="http://www.hotdiary.com/images/newhdlogo.gif" BORDER="0"></a></TD>
+<TD ALIGN=CENTER WIDTH="85%">
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label: Purchase Form</b></FONT><BR>
+<!--
+<FONT FACE="Verdana" SIZE="4">HotDiary JiveIt! Portal Commercial WebSite Purchase Form </FONT>
+-->
+<BR>
+<FONT FACE="Verdana" SIZE=2>You will be taken to a secure site where you can enter your credit card information</FONT>
+</CENTER>
+</TD>
+<TD WIDTH="15%">
+&nbsp;
+</TD>          
+</TR>
+</TABLE>
+</CENTER>
+
+
+<HR BGCOLOR=dddddd size=1>
+Purchase :$label: for $ :$amount:
+<BR>
+<BR>
+<CENTER>
+<BR>
+<IMG SRC="http://www.hotdiary.com/images/visa.gif">
+<IMG SRC="http://www.hotdiary.com/images/mcard.gif">
+<TABLE WIDTH="60%" CELLPADDING=0 CELLSPACING=5>
+
+<TR VALIGN=TOP>  
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Customer First Name</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_first_name VALUE=:$firstname:>
+</TD>
+</TR>             
+
+<TR VALIGN=TOP>  
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Customer Last Name</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_last_name VALUE=:$lastname:>
+</TD>
+</TR>             
+
+<!--
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Company Name</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_company VALUE=:$companyname:>
+</TD>
+</TR>
+-->
+
+<TR VALIGN=TOP>
+<TD  ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Street Address</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_address VALUE=:$street:>
+</TD>
+</TR>
+
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>City</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_city VALUE=:$city:>
+</TD>
+</TR>
+
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>State</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_state VALUE=:$state:>
+</TD>
+</TR>
+
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Zip Code</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_zip VALUE=:$zipcode:>
+</TD>
+</TR>
+
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Country</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_country VALUE=:$country:>
+</TD>
+</TR>
+
+<!--
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Credit Card Number</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_Card_Num VALUE=4007000000077>
+</TD>
+</TR>
+
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Credit Card Expiration Date</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_exp_date VALUE=0202>
+</TD>
+</TR>
+-->
+
+<!--
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Fax Number</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_fax VALUE=:$fax:>
+</TD>
+</TR>
+-->
+
+<TR VALIGN=TOP>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Email</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=x_email VALUE=:$email:>
+</TD>
+</TR>
+
+</TABLE>
+</TABLE>
+</TABLE>
+</CENTER>
+<BR><BR><BR>
+<CENTER>
+<FONT FACE="Verdana" SIZE="3">
+<INPUT TYPE="SUBMIT" NAME="purchase" VALUE="Proceed To Purchase">
+</FONT>
+</CENTER>
+<P>
+
+</FORM>
+
+</BODY>
+</HTML>
+
+

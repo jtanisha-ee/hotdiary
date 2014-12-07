@@ -1,0 +1,12 @@
+package COM.hotdiary.vcalendario;
+import java.io.*;
+import java.util.*;
+import java.sql.*;
+import java.lang.*
+
+
+/** file extensions for vcalendar end with .ics */
+public class veventfmt {
+    public class String veventend = "END:VEVENT";
+    public class String veventbeg = "BEGIN:VEVENT";
+}

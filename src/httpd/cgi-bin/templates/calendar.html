@@ -1,0 +1,132 @@
+<HTML>
+<HEAD>
+	<TITLE>HotDiary - The World's First Collaborative Internet Diary.</TITLE>
+<BASE HREF="http://www.hotdiary.com/">
+<SCRIPT LANGUAGE="JavaScript">
+function viewday (yr,mm,dd) {
+	window.open('<%=cgi%>?ACTION=VIEWDAY&Year=' +yr+ '&Month=' +mm+ '&Date=' +dd + '&config=<%=config%>','VIEWDAY','scrollbars,resizable,height=400,width=400');
+	}
+</SCRIPT>
+<style>
+<!--
+ A { text-decoration:none; }
+-->
+</style>
+</HEAD>
+<!--
+<BODY BGCOLOR="#ffffff" LINK="#000080" ALINK="#000080" VLINK="#000080">
+-->
+<BODY BACKGROUND="images/pad.gif" LINK="#000080" ALINK="#000080" VLINK="#000080">
+<P>
+<CENTER>
+
+<TABLE BORDER=1 CELLPADDING=3 CELLSPACING=0 BORDERCOLOR=#333333>
+<TR>
+	<TD ALIGN=LEFT BGCOLOR=#000080>
+		<%=lastmonth_calendar%>
+	</TD>
+	<form action="<%=cgi%>" method=post>
+	<TD COLSPAN=5 VALIGN=MIDDLE BGCOLOR=#000080 ALIGN=CENTER>
+	<font color=white size=+2 face="verdana"><b><%=monthname%> <%=year%></b></font><br>
+	<input type="hidden" name="config" value="<%=config%>">
+	<select name="Month" size=1>
+		<option value="1">January
+		<option value="2">February
+		<option value="3">March
+		<option value="4">April
+		<option value="5">May
+		<option value="6">June
+		<option value="7">July
+		<option value="8">August
+		<option value="9">September
+		<option value="10">October
+		<option value="11">November
+		<option value="12">December
+	</select>
+	<select name="Year" size=1>
+		<option value="1997">1997
+		<option value="1998">1998
+		<option value="1999">1999
+		<option value="2000">2000
+		<option value="2001">2001
+		<option value="2002">2002
+		<option value="2003">2003
+	</select>
+	<input type="submit" value="Go"><br>
+	<font size="-1" color="white"><i>Click on any date to view details for that day.</i></font>
+	</TD>
+	</form>
+	<TD ALIGN=RIGHT BGCOLOR=#000080>
+		<%=nextmonth_calendar%>
+	</TD>
+</TR>
+<TR>
+	<TD COLSPAN=7>
+	<ul>
+		<%OUTPUT TODAY%>
+		<li><%=description%>
+		<%/OUTPUT%>
+	</ul>
+	</font>
+	</TD>
+</TR>
+<TR>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Sunday</font></TH>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Monday</font></TH>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Tuesday</font></TH>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Wednesday</font></TH>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Thursday</font></TH>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Friday</font></TH>
+	<TH WIDTH=90 BGCOLOR=#CCCCCC><font face="verdana" SIZE="-1">Saturday</font></TH>
+</TR>
+
+<%OUTPUT DAY%>
+	<TD VALIGN=TOP <%=bgcolor%> >
+	<FONT SIZE=+1><B><a href="<%=viewday%>"><%=current_day%></a></B></FONT>
+	<FONT SIZE="-2"><br>
+		<%=event_labels%>
+	</FONT>
+	</TD>
+<%/OUTPUT%>
+<TR>
+	<TD COLSPAN=7 BGCOLOR="#000080">&nbsp;</TD>
+</TR>
+</TABLE>
+<BR>
+
+<!-- Add An Entry Form -->
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=3>
+	<form action="<%=cgi%>" method=post>
+	<input type="hidden" name="ACTION" value="DO_ADD">
+	<input type="hidden" name="config" value="<%=config%>">
+	<TR>
+		<TD BGCOLOR="#000080" ALIGN=CENTER COLSPAN=4><font color="white" size=+1><B>Add a Memo</B></font></TD>
+	</TR>
+	<TR>
+		<TH BGCOLOR="#CCCCCC">Date</TH>
+		<TD BGCOLOR="#CCCCCC">
+			<input name="Month" size=2 maxlength=2 value="<%=month%>"> / <input name="Date" size=2 maxlength=2 value="<%=date%>"> / <input name="Year" size=4 maxlength=4 value="<%=year%>"><br>
+			<input type="checkbox" name="annual" value="1" onClick="if(form.annual.checked == true){form.Year.value='0000'}else{form.Year.value='<%=year%>'}"> Every Year
+		</TD>
+		<TH BGCOLOR="#CCCCCC">Heading</TH>
+		<TD BGCOLOR="#CCCCCC"><input name="heading" size=30></TD>
+	</TR>
+	<TR>
+		<TH BGCOLOR="#CCCCCC">Description</TH>
+		<TD BGCOLOR="#CCCCCC" COLSPAN=3><textarea name="description" cols=50 rows=3></textarea></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ALIGN=RIGHT BGCOLOR="#CCCCCC"><input type="reset" value="Cancel">&nbsp;&nbsp;&nbsp;<input type="submit" value="Save"></TD>
+	</TR>
+	</form>
+</TABLE>
+<BR>
+<!--
+<font size="-1"><i>Calendar Program by <a href="http://mkruse.netexpress.net/">Matt Kruse</a></i></font>
+-->
+<!--/Add An Entry Form -->
+
+</CENTER>
+
+</BODY>
+</HTML>

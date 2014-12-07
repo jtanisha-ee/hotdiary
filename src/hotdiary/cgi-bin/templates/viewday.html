@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+	<TITLE><%=monthname%>&nbsp;<%=date%>,&nbsp;<%=year%></TITLE>
+<style>
+<!--
+ A { text-decoration:none; }
+-->
+</style>
+</HEAD>
+<!--
+<BODY BGCOLOR="#ffffff" LINK="#000080" ALINK="#000080" VLINK="#000080" LEFTMARGIN=0 RIGHTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+-->
+<BODY BGCOLOR="#ff9900" LINK="#000080" ALINK="#000080" VLINK="#000080" LEFTMARGIN=0 RIGHTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<TABLE BORDER=0 CELLPADDING=3 CELLSPACING=0 BORDERCOLOR=#333333 WIDTH=100%>
+<TR>
+<TD BGCOLOR="#FF3488"><%=small_calendar%></TD>
+<TD ALIGN=CENTER VALIGN=MIDDLE BGCOLOR="#000080" WIDTH=100%>
+<font color=white size=+2 face="verdana"><b><%=monthname%>&nbsp;<%=date%><br><%=year%></b></font>
+</TD>
+</TR>
+</TABLE>
+<UL>
+<%OUTPUT EVENTS%>
+<LI><%=description%>
+<%/OUTPUT%>
+</UL>
+<TABLE BORDER=0 CELLPADDING=3 CELLSPACING=0 BORDERCOLOR=#333333 WIDTH=100%>
+<TR>
+<FORM>
+<TD ALIGN=CENTER VALIGN=MIDDLE WIDTH=100%>
+<INPUT TYPE="button" VALUE="Close" onClick="window.close();">
+</TD>
+</FORM>
+</TR>
+</TABLE>
+	
+</BODY>
+</HTML>

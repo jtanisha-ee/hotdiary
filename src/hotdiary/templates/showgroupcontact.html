@@ -1,0 +1,358 @@
+<!--
+
+(C) Copyright 1997-2000 HotDiary Inc.
+
+ This software is confidential copyrighted information of HotDiary and
+ title to all copies is retained by HotDiary and/or its licensors.
+ Licensee shall not modify, decompile, disassemble, decrypt, extract,
+ or otherwise. This software may not be leased, assigned, or sublicensed,
+ in whole or in part.
+
+Information Common To All Templates
+
+- If you are viewing this page using the View Source utility
+of the browser, you will see information for a specific session
+as opposed to the generic template. So this may not be the
+best way to view the template. We suggest that you download
+the template using JiveIt! admin utility.
+
+- Please download this template on a regular basis to make sure
+you have taken advantage of new applications that HotDiary
+introduces on a regular basis.
+
+- You can customize this template to add your own structure
+and look n feel. These could include your own images, layout,
+style, fonts, color, java script, java, or even custom links. You
+can pass HotDiary variables as parameters to your custom links.
+This may help you to build seemless extensions to HotDiary and blend it
+more easily into your functional environment.
+
+- After you are done with customization, you can upload the
+template using the Admin link on your JiveIt! site. After you
+login into your admin account as an administrator, click the
+upload template link to upload the template. (For those of you
+who have customized the JiveIt Home template, make sure you
+preserve the Admin link. This will help you to administer
+your JiveIt! site more easily.)
+
+- Be careful with our link tags and parameters! As long as you
+keep those unharmed, you can move things around and design
+it using your favorite HTML authoring tool
+
+- All hotdiary variables are in the format :$var:, where var is
+the variable.
+
+Welcome To Edit A Contact (editgroupcontact.txt) . (Last Updated: Mar. 26, 2000)
+
+-->
+
+
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+
+<FORM ACTION="/cgi-bin/:$rh:/execdogeneric.jsp" METHOD="POST" :$formenc:>
+:$hiddenvars:
+<FONT FACE="Verdana" SIZE="1">
+
+<CENTER>
+<TABLE WIDTH="100%">
+<TR>
+<TD ALIGN=LEFT WIDTH="15%">:$logo:</TD>
+<TD ALIGN=CENTER WIDTH="85%">
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label:</b></FONT><BR>
+<FONT FACE="Verdana" SIZE="3">Group Contact Manager for ":$g:"</FONT>
+				
+</CENTER>
+</TD>
+<TD WIDTH="15%">
+</TD>          
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+
+<TABLE BORDER="1" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
+<TR>
+<TD>
+
+<TABLE BORDER="0" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR BGCOLOR=dddddd>
+<TD BGCOLOR=dddddd ALIGN="LEFT"><FONT FACE="Verdana" SIZE="3">:$welcome: :$login:</FONT></TD>
+<TD BGCOLOR=dddddd ALIGN="RIGHT"><FONT FACE="Verdana" SIZE="3">
+<a href="/cgi-bin/:$rh:/execdogeneric.jsp?p0=:$execproxylogout:&p1=biscuit&p2=jp&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&jp=:$jp:&biscuit=:$biscuit:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">:$logout:</a> 
+<a href="/cgi-bin/:$rh:/execdogeneric.jsp?p0=:$execshowtopcal:&p1=biscuit&p2=jp&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&jp=:$jp:&biscuit=:$biscuit:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">:$home:</a> 
+<a href="/cgi-bin/:$rh:/execdogeneric.jsp?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&page=jintranetwhatsnew.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">:$new:</a> 
+<a href="/cgi-bin/:$rh:/execdogeneric.jsp?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&page=jfeatures.html&rh=:$rh:&jp=:$jp:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">:$features:</a> 
+<a href="/cgi-bin/:$rh:/execdogeneric.jsp?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&page=jhelp.html&rh=:$rh:&jp=:$jp:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">:$help:</a>
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<BR>
+<CENTER> 
+<FONT FACE=Verdana SIZE=2><a href="/cgi-bin/:$rh:/execdogeneric.jsp?p0=:$execaddgroupcontact:&p1=biscuit&p2=jp&p3=g&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&g=:$g:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Add New Group Contact</a></FONT>
+</CENTER>
+<BR>
+
+
+<BR>
+<CENTER>
+:$letter:
+</CENTER>
+
+<BR><BR>
+
+<CENTER>
+<TABLE WIDTH="60%" CELLPADDING=0 CELLSPACING=5>
+<TR VALIGN=TOP>
+<TD COLSPAN=2 ALIGN=CENTER>
+<FONT FACE=Verdana SIZE=4>Contact Details of :$fname: :$lname:</FONT>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>First Name</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=fname VALUE=":$fname:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Last Name</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=lname VALUE=":$lname:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Title</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=title VALUE=":$title:">
+</TD>
+</TR>
+
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>SuiteNo (Other)</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=aptno VALUE=":$aptno:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Street</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=street SIZE="20" VALUE=":$street:" MAXLENGTH=64>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">City</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=city SIZE="20" VALUE=":$city:" MAXLENGTH=64>
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">State</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=state VALUE=":$state:" SIZE="20" MAXLENGTH="64">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">ZipCode</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=zipcode VALUE=":$zipcode:" SIZE="20" MAXLENGTH="64">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Country</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=country VALUE=":$country:" SIZE="20" MAXLENGTH="64">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Home Phone</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=hphone VALUE=":$hphone:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Business Name</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=busname VALUE=":$busname:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Business Phone</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=bphone VALUE=":$bphone:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Cell Phone
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=cphone VALUE=":$cphone:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">URL</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=url VALUE=":$url:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Email</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=email VALUE=":$email:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Fax</FONT>
+</TD>
+<TD>
+<INPUT TYPE=TEXT NAME=fax VALUE=":$fax:">
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE="3">Pager</FONT>
+</TD>
+<TD ALIGN=LEFT> <FONT SIZE="2">
+<SELECT NAME=pagertype>
+<OPTION SELECTED>:$pagertype:</OPTION>
+<OPTION>SkyTel Pager</OPTION>
+<OPTION>AirTouch Pager</OPTION>
+<OPTION>Nextel Pager</OPTION>
+<OPTION>PageMart Pager</OPTION>
+<OPTION>Metrocall Pager</OPTION>
+<OPTION>Other Pager</OPTION>
+</SELECT>
+</FONT>
+<INPUT TYPE=TEXT NAME=pager VALUE=":$pager:">
+</TD>
+</TR>
+
+<TR>
+<TD><FONT FACE="Verdana">Birthday</FONT></TD>
+<TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD><FONT SIZE="2"><SELECT NAME=bmonth>
+<OPTION SELECTED>:$bmonth:</OPTION>
+<OPTION VALUE=1>Jan</OPTION><OPTION VALUE=2>Feb</OPTION>
+<OPTION VALUE=3>Mar</OPTION><OPTION VALUE=4>Apr</OPTION>
+<OPTION VALUE=5>May</OPTION><OPTION VALUE=6>Jun</OPTION>
+<OPTION VALUE=7>Jul</OPTION> <OPTION VALUE=8>Aug</OPTION>
+<OPTION VALUE=9>Sep</OPTION> <OPTION VALUE=10>Oct</OPTION>
+<OPTION VALUE=11>Nov</OPTION><OPTION VALUE=12>Dec</OPTION>
+</SELECT>
+</FONT>
+</TD>
+<TD><FONT SIZE="2"><SELECT NAME=bday>
+<OPTION SELECTED>:$bday:</OPTION>
+<OPTION>1</OPTION><OPTION>2</OPTION> <OPTION>3</OPTION>
+<OPTION>4</OPTION><OPTION>5</OPTION> <OPTION>6</OPTION>
+<OPTION>7</OPTION><OPTION>8</OPTION> <OPTION>9</OPTION>
+<OPTION>10</OPTION><OPTION>11</OPTION> <OPTION>12</OPTION>
+<OPTION>13</OPTION><OPTION>14</OPTION> <OPTION>15</OPTION>
+<OPTION>16</OPTION><OPTION>17</OPTION> <OPTION>18</OPTION>
+<OPTION>19</OPTION><OPTION>20</OPTION> <OPTION>21</OPTION>
+<OPTION>22</OPTION><OPTION>23</OPTION> <OPTION>24</OPTION>
+<OPTION>25</OPTION><OPTION>26</OPTION> <OPTION>27</OPTION>
+<OPTION>28</OPTION><OPTION>29</OPTION> <OPTION>30</OPTION>
+<OPTION>31</OPTION>
+</SELECT>
+</FONT> 
+</TD>
+<TD><INPUT TYPE=TEXT NAME=byear VALUE=":$byear:" SIZE="2" MAXLENGTH="4"> 
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT SIZE="3" FACE="Verdana">Autoinvite contact to HotDiary: </TD>
+<TD><INPUT TYPE=CHECKBOX NAME="autoinvite">&nbsp;&nbsp;&nbsp; Invite Contact!</FONT>
+</TD>
+<TD COLSPAN="3">
+&nbsp;
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD ALIGN=LEFT>
+<FONT FACE=Verdana SIZE=3>Other</FONT>
+</TD>
+<TD>
+<TEXTAREA NAME=other ROWS="15" COLS="55">:$other:</TEXTAREA> 
+</TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD COLSPAN=2 ALIGN=CENTER>
+<FONT FACE=Verdana SIZE=3><INPUT TYPE=SUBMIT NAME=save VALUE=Save></FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+</BODY>
+</HTML>

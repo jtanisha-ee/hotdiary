@@ -1,0 +1,13 @@
+#!/bin/ksh
+
+
+. /usr/local/hotdiary/config/hd.env
+export ROOTDIR=/usr/local/hotdiary/java/COM/hotdiary/vcard
+export CLASSPATH=$ROOTDIR/classes;$CLASSPATH
+rm $ROOTDIR/classes/*.class
+cd hotdiary/vcard
+javac -d $ROOTDIR/classes  *.java
+cd $ROOTDIR/programs
+javac -d $ROOTDIR/classes *.java
+cd $ROOTDIR
+

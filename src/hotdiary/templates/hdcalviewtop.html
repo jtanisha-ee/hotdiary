@@ -1,0 +1,304 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+
+</HEAD>
+
+<!-- <META HTTP-EQUIV="expires" Content="Expires:$expiry:"> -->
+
+
+<!-- <BASE HREF="http://localhost/"> -->
+<!-- <BODY BACKGROUND="http://www.hotdiary.com/images/pad.gif"> -->
+<BODY BGCOLOR=:$pubcolor:>
+
+
+<!--
+<FORM ACTION="/cgi-bin/:$rh:/execcalclient.cgi" METHOD="POST" ENCTYPE="multipart/form-data">
+-->
+<FORM ACTION="/cgi-bin/:$rh:/execcalclient.cgi" METHOD="POST" :$formenc:>
+<FONT FACE="Verdana" SIZE="1">
+<INPUT TYPE="HIDDEN"  NAME="biscuit" SIZE="-1" VALUE=":$biscuit:">
+<INPUT TYPE="HIDDEN"  NAME="dy" SIZE="-1" VALUE=":$dy:">
+<INPUT TYPE="HIDDEN"  NAME="mo" SIZE="-1" VALUE=":$mo:">
+<INPUT TYPE="HIDDEN"  NAME="yr" SIZE="-1" VALUE=":$yr:">
+<INPUT TYPE="HIDDEN"  NAME="vw" SIZE="-1" VALUE=":$vw:">
+<INPUT TYPE="HIDDEN"  NAME="h" SIZE="-1" VALUE=":$h:">
+<INPUT TYPE="HIDDEN"  NAME="m" SIZE="-1" VALUE=":$m:">
+<INPUT TYPE="HIDDEN"  NAME="en" SIZE="-1" VALUE=":$en:">
+<INPUT TYPE="HIDDEN"  NAME="f" SIZE="-1" VALUE=":$f:">
+<INPUT TYPE="HIDDEN"  NAME="a" SIZE="-1" VALUE=":$a:">
+<INPUT TYPE="HIDDEN"  NAME="rurl" SIZE="-1" VALUE=":$rurl:">
+<INPUT TYPE="HIDDEN"  NAME="jvw" SIZE="-1" VALUE=":$jvw:">
+<INPUT TYPE="HIDDEN"  NAME="g" SIZE="-1" VALUE=":$g:">
+<INPUT TYPE="HIDDEN"  NAME="jp" SIZE="-1" VALUE=":$jp:">
+<!--
+<P><TABLE BORDER=1 CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD WIDTH="35%"><FONT SIZE="1"><i>Welcome :$login:</i></FONT></TD>
+<TD WIDTH="35%">&nbsp;</TD>
+<TD WIDTH="55%" COLSPAN="2"><B>:$label:</B><BR><FONT SIZE="2">:$label1:</FONT><BR><FONT SIZE="1">:$label2:</FONT></TD>
+</TABLE>
+-->
+<CENTER>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD WIDTH="15%">
+:$logo:
+</TD>
+<TD ALIGN="CENTER" WIDTH="70%">
+<FONT FACE="Verdana" SIZE="4"><b>:$label:</b></FONT><BR>
+</TD>
+<TD WIDTH="15%" ALIGN="RIGHT">
+<a href="http://www.hotdiary.com"><FONT FACE="Verdana" SIZE="1">Powered By<BR>HotDiary</FONT></a>
+</TD>
+</TR>
+</TABLE>
+<!--
+<FONT FACE="Verdana" SIZE="4"><b>:$label:</b></FONT><BR>
+-->
+<FONT FACE="Verdana" SIZE="4">:$label1:</FONT><BR>
+<FONT FACE="Verdana" SIZE="3">:$label2:</FONT>
+</CENTER>
+
+<!--
+<BR>
+<CENTER>
+:$calline:
+</CENTER>
+<BR>
+-->
+
+
+<TABLE BORDER="1" BORDERCOLOR=":$pubcolor:" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
+<TR>
+<TD>
+
+<TABLE BORDER="0" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR BGCOLOR=dddddd>
+<TD BGCOLOR=dddddd ALIGN="LEFT"><FONT FACE="Verdana" SIZE="3">:$welcome: :$login: <FONT COLOR=00aa44><b>:$group:</b></FONT></FONT></TD>
+<TD BGCOLOR=dddddd ALIGN="RIGHT"><FONT FACE="Verdana" SIZE="3">
+:$groupcal:
+<!-- <a href="http://www.hotdiary.com/whatsnew.html">What's New?</a> - -->
+<a href="http://www.hotdiary.com/cgi-bin/execdeploypage.cgi?biscuit=:$biscuit:&jp=:$jp:&rh=:$rh:&page=jwhatsnew.html">:$whatsnew:</a> :$dash: 
+<!-- <a href="http://www.hotdiary.com/features.html">Features</a> - -->
+<a href="http://www.hotdiary.com/cgi-bin/execdeploypage.cgi?jp=:$jp:&rh=:$rh:&biscuit=:$biscuit:&page=jfeatures.html">:$features:</a> :$dash: 
+<!-- <a href="http://www.hotdiary.com/faq.html">Help</a> -->
+<a href="http://www.hotdiary.com/cgi-bin/execdeploypage.cgi?jp=:$jp:&rh=:$rh:&biscuit=:$biscuit:&page=jhelp.html">:$help:</a>
+</TD>
+<!--
+<TD BGCOLOR=ffffff>
+<LEFT>
+<FONT FACE="Verdana" SIZE="3">Welcome :$login:</FONT>
+</LEFT>
+<RIGHT>
+<FONT FACE="Verdana" SIZE="3">
+<a href="/calendar.html">What's New?</a> -
+<a href="/calfeatures.html">Features</a> -
+<a href="/calhelp.html">Help</a>
+</RIGHT>
+</TD>
+-->
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+<CENTER>
+:$calline:
+</CENTER>
+<BR>
+
+<BR>
+
+<!-- Begin Outermost table1, one row, two columns -->
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<!-- Begin Only Row11 in Table -->
+<TR>
+<!-- Begin Month calendar column -->
+<TD VALIGN="TOP" WIDTH="35%">
+<!-- Begin Vertical Table With 2 Rows -->
+<TABLE>
+<!-- Month Calendar -->
+<TR>
+<TD>
+<TABLE BORDER="1" BGCOLOR=dddddd>
+<!-- Month Label -->
+<TR BGCOLOR="#d3c197">
+<TD ALIGN="CENTER" VALIGN="TOP"></TD>
+<TD VALIGN="TOP" ALIGN="CENTER">
+<a href=":$pyr:"><IMG SRC="http://www.hotdiary.com/images/red3dleft.gif" BORDER=0 ALT="Previous Year"></a>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<a href=":$pmn:"><IMG SRC="http://www.hotdiary.com/images/redblackleft.gif" ALT="Previous Month" BORDER="0"></a>
+</TD>
+<TD COLSPAN="3">
+<CENTER>
+<FONT FACE="Verdana" SIZE="1"><a href=":$mntref:" title="View Month">:$monthlbl:</a></FONT>
+<FONT FACE="Verdana" SIZE="1"><a href=":$yrref:" title="View Year">:$yrlbl:</a></FONT>
+</CENTER>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<a href=":$nmn:"><IMG SRC="http://www.hotdiary.com/images/redblackright.gif" ALT="Next Month" BORDER="0"></a>
+</TD>
+<TD ALIGN="CENTER" VALIGN="TOP">
+<a href=":$nyr:"><IMG SRC="http://www.hotdiary.com/images/red3dright.gif" BORDER=0 ALT="Next Year"></a>
+</TD>
+</TR>
+<!-- Month Label -->
+<!-- Weekday Label -->
+<TR BGCOLOR="#ff0f5f">
+<TD WIDTH="12%"></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">S</FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">M</FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">T</FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">W</FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">T</FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">F</FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" COLOR=ffffff SIZE="1">S</FONT></CENTER></TD>
+</TR>
+<!-- Weekday Label -->
+<!-- First Row -->
+<TR>
+<!--
+<TD WIDTH="12%"><a href=":$jwk0:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="View Week"></a></TD>
+-->
+<TD ALIGN="CENTER" VALIGN="TOP" BGCOLOR="#eeee77" WIDTH="12%"><a href=":$jwk0:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH=10 HEIGHT=10 BORDER="0" ALT="View Week"></a></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep00:">:$c00:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep01:">:$c01:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep02:">:$c02:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep03:">:$c03:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep04:">:$c04:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep05:">:$c05:</a></FONT></CENTER></TD>
+<TD  WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep06:">:$c06:</a></FONT></CENTER></TD>
+</TR>
+<!-- First Row -->
+<!-- Second Row -->
+<TR>
+<!--
+<TD WIDTH="12%"><a href=":$jwk1:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="View Week"></a></TD>
+-->
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="12%" BGCOLOR="#0fff00"><a href=":$jwk1:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH=10 HEIGHT=10 BORDER="0" ALT="View Week"></a></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep10:">:$c10:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep11:">:$c11:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep12:">:$c12:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep13:">:$c13:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep14:">:$c14:</a></FONT></CENTER></TD>
+<TD WIDTH="14%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep15:">:$c15:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep16:">:$c16:</a></FONT></CENTER></TD>
+</TR>
+<!-- Second Row -->
+<!-- Third Row -->
+<TR>
+<!--
+<TD WIDTH="12%"><a href=":$jwk2:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="View Week"></a></TD>
+-->
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="12%" BGCOLOR="#dc5699"><a href=":$jwk2:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH=10 HEIGHT=10 BORDER="0" ALT="View Week"></a></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep20:">:$c20:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep21:">:$c21:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep22:">:$c22:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep23:">:$c23:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep24:">:$c24:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep25:">:$c25:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep26:">:$c26:</a></FONT></CENTER></TD>
+</TR>
+<!-- Third Row -->
+<!-- Fourth Row -->
+<TR>
+<!--
+<TD WIDTH="12%"><a href=":$jwk3:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="View Week"></a></TD>
+-->
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="12%" BGCOLOR="#1424ee"><a href=":$jwk3:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH=10 HEIGHT=10 BORDER="0" ALT="View Week"></a></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep30:">:$c30:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep31:">:$c31:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep32:">:$c32:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep33:">:$c33:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep34:">:$c34:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep35:">:$c35:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep36:">:$c36:</a></FONT></CENTER></TD>
+</TR>
+<!-- Fourth Row -->
+<!-- Fifth Row -->
+<TR>
+<!--
+<TD WIDTH="12%"><a href=":$jwk4:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="View Week"></a></TD>
+-->
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="12%" BGCOLOR="#e1819c"><a href=":$jwk4:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH=10 HEIGHT=10 BORDER="0" ALT="View Week"></a></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep40:">:$c40:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep41:">:$c41:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep42:">:$c42:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep43:">:$c43:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep44:">:$c44:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep45:">:$c45:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep46:">:$c46:</a></FONT></CENTER></TD>
+</TR>
+<!-- Fifth Row -->
+<!-- Sixth Row -->
+<TR>
+<!--
+<TD WIDTH="12%"><a href=":$jwk5:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH="10" HEIGHT="10" BORDER="0" ALT="View Week"></a></TD>
+-->
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="12%" BGCOLOR="#0fc889"><a href=":$jwk5:"><IMG SRC="http://www.hotdiary.com/images/redball.gif" WIDTH=10 HEIGHT=10 BORDER="0" ALT="View Week"></a></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep50:">:$c50:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep51:">:$c51:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep52:">:$c52:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep53:">:$c53:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep54:">:$c54:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep55:">:$c55:</a></FONT></CENTER></TD>
+<TD WIDTH="12%"><CENTER><FONT FACE="Verdana" SIZE="1"><a href=":$rep56:">:$c56:</a></FONT></CENTER></TD>
+</TR>
+<!-- Sixth Row -->
+</TABLE>
+</TD>
+<!-- End Month Table -->
+</TR>
+<!-- End Month Calendar -->
+<!-- Begin Action Buttons -->
+<TR>
+<TD>
+<CENTER>
+<h3><FONT FACE="Verdana">Today <a href=":$todayref:">:$today:</FONT></a></h3>
+</CENTER>
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH="100%" BORDER=0>
+<TR>
+<TD>
+<a href=":$events:"><FONT FACE="Verdana" SIZE="3">Reminders</FONT></a><BR><BR>
+</TD>
+<TD>
+<a href=":$todo:"><FONT FACE="Verdana" SIZE="3">To-Do</FONT></a><BR><BR>
+</TD>
+</TR>
+
+<TR>
+<TD><FONT FACE="Verdana" SIZE="3">:$rep:</FONT></TD>
+
+<!--
+<a href=":$rep:"><FONT FACE="Verdana" SIZE="3">Report</FONT></a><BR><BR>
+-->
+
+<TD>
+<a href=":$home:" :$target:><FONT FACE="Verdana" SIZE="3">:$homestr:</FONT></a><BR><BR>
+</TD>
+</TR>
+
+<TR>
+<TD><FONT FACE=Verdana SIZE=3><a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execfilebrowser:&p1=biscuit&p2=f&p3=jp&p4=fp&p5=owner&p6=fuser&p7=flg&p8=framedomain&fuser=&owner=&fp=&pnum=9&framedomain=:$vdomain:&flg=:$flg:&jp=:$jp:&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&f=mc&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">:$carryon:</a></FONT></TD>
+<TD>
+&nbsp;
+</TD>
+</TR>
+
+</TABLE>
+
+:$calphoto:
+
+</TD>
+</TR>
+<!-- End Action Buttons -->
+</TABLE>
+<!-- End Vertical Table With 2 Rows -->
+</TD>
+<!-- End Month calendar column -->

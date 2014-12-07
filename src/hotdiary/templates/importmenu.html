@@ -1,0 +1,40 @@
+<FORM ACTION=":$actioncgi:" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" NAME="post">
+<INPUT TYPE="HIDDEN"  NAME="biscuit" SIZE="-1" VALUE=":$biscuit:">
+<p><br><br>
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+<TD>
+<SELECT NAME=fmttype>
+<OPTION>Palm Pilot</OPTION>
+<OPTION>Microsoft Outlook</OPTION>
+<OPTION>Lotus Organizer</OPTION>
+<OPTION>Netscape Messenger</OPTION>
+</SELECT>
+</TD>
+<TD>
+<INPUT TYPE=FILE NAME="syncfile">
+</TD>
+</TR>
+<TR>
+<TD COLSPAN="2">
+Autoinvite Members to HotDiary: <INPUT TYPE=CHECKBOX NAME="autoinvite">
+&nbsp;&nbsp;&nbsp;Use with caution!
+</TD>
+</TR>
+<TR><TD><BR></TD></TR>
+<TR>
+<TD COLSPAN=2>
+<CENTER>
+<!-- <INPUT TYPE=image SRC="images/syncaddr.gif" border="0" NAME="syncaddr"> -->
+<INPUT TYPE=SUBMIT border="0" VALUE="Import" NAME="import">
+</CENTER>
+</TD>
+</TR>
+</TABLE>
+<BR><BR><FONT FACE="Verdana" SIZE=2><i>Import utility is only for advanced users</i></FONT>
+<DL>
+<LI>
+Click <a href="/importformats.html">here</a> to learn more about import formats.
+</LI>
+</DL>
+</FORM>

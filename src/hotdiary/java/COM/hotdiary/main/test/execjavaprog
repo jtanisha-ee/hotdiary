@@ -1,0 +1,3 @@
+#!/bin/ksh
+
+java COM.hotdiary.main.DbGet "select * from tsmitha" /tmp/testout /usr/local/hotdiary/java/COM/hotdiary/main/test/execperltest.cgi

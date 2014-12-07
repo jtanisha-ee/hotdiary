@@ -1,0 +1,88 @@
+<FORM ACTION=":$actioncgi:" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" NAME="post">
+<INPUT TYPE="HIDDEN"  NAME="biscuit" SIZE="-1" VALUE=":$biscuit:">
+<p><br><br>
+<p><FONT FACE="Verdana" SIZE=2">
+This groups interface is for advanced users only. If you want to
+create and start using groups (and group calendars) quickly, please 
+click on the Calendar button in left frame, and then press 
+Secure Calendars link in the top title bar.
+</FONT>
+<p>
+<CENTER>
+<TABLE BORDER="0" WIDTH="50%">
+<TR>
+<TD WIDTH="5%">
+</TD>
+<TD>
+<TABLE BORDER="6" BGCOLOR="ffffff" CELLSPACING="0" CELLPADDING="0">
+<TR><TD>
+<TABLE BORDER="0" BGCOLOR="ffffff" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD COLSPAN="2">
+<FONT FACE="Verdana" SIZE="4"><CENTER>Groups Wizard</CENTER></FONT>
+</TD>
+</TR>
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="4">Group Name</FONT>
+</TD>
+<TD><INPUT TYPE="TEXT" NAME="groupname" SIZE="20" MAXLENGTH="20">
+<!--
+My Personal Groups
+<SELECT NAME="pgroups">
+:$pgroups:
+</SELECT>
+ -->
+</TD>
+</TR>
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="4">Group Type</FONT>
+</TD>
+<TD>
+<SELECT NAME="grouptype">
+<OPTION>Founded
+<OPTION>Subscribed
+<OPTION>Personal
+<OPTION>Unsubscribed
+</SELECT>
+<FONT FACE="Verdana" SIZE="2" COLOR="ff0000">(Select the correct option!)</FONT>
+</TD>
+</TR>
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="4">Group Title</FONT>
+</TD>
+<TD><INPUT TYPE="TEXT" NAME="grouptitle" SIZE="40" MAXLENGTH="64"></TD>
+</TR>
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="4">Group Charter <BR>(1000 characters)</FONT>
+</TD>
+<TD><TEXTAREA NAME="groupdesc" ROWS="5" COLS="40"></TEXTAREA></TD>
+</TR>
+<TR>
+<TD COLSPAN="2">
+<CENTER>
+<INPUT TYPE=image SRC="images/add.gif" border="0" NAME="add">
+<INPUT TYPE=image SRC="images/search.gif" border="0" NAME="search">
+</CENTER>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+<FONT FACE="Verdana" SIZE="2">
+<DL>
+<LI>To add a public group, select any grouptype other than "Personal".</LI>
+<LI>To add a personal group, select grouptype as "Personal".</LI>
+</LI>
+<LI>Search for "Subscribed" groups also returns "Founded" groups, but not vice-versa.</LI>
+</DL>
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>

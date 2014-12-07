@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+
+<FORM ACTION="/cgi-bin/:$rh:/execdogeneric.cgi" METHOD="POST" :$formenc:>
+:$hiddenvars:
+<FONT FACE="Verdana" SIZE="1">
+
+<CENTER>
+<TABLE WIDTH="100%">
+<TR>
+<TD ALIGN=LEFT WIDTH="15%">:$logo:</TD>
+<TD ALIGN=CENTER WIDTH="85%">
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label:</b></FONT><BR>
+<FONT FACE="Verdana" SIZE="3">Virtual Business Communities</FONT>
+</CENTER>
+</TD>
+<TD WIDTH="15%">
+</TD>          
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+
+<TABLE BORDER="1" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
+<TR>
+<TD>
+
+<TABLE BORDER="0" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR BGCOLOR=dddddd>
+<TD BGCOLOR=dddddd ALIGN="LEFT"><FONT FACE="Verdana" SIZE="3">:$welcome: :$login:</FONT></TD>
+<TD BGCOLOR=dddddd ALIGN="RIGHT"><FONT FACE="Verdana" SIZE="3">
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execproxylogout:&p1=biscuit&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Logout</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execshowtopcal:&p1=biscuit&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Home</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&page=jintranetwhatsnew.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">What's New</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&page=jintranetfeatures.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Features</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&page=jhelp.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Help</a>
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<CENTER>
+<FONT FACE=Verdana SIZE=4>Select people in (:$business:)</FONT><BR>
+<FONT FACE=Verdana SIZE=2>to Remove</FONT>
+<BR> <BR>
+:$members:
+<BR><BR>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=submit NAME=remove VALUE="Remove"></FONT>
+</CENTER>
+</BODY>
+</HTML>

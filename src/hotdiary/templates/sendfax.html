@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<!-- <META HTTP-EQUIV="expires" Content="Expires:$expiry:">  -->
+<BASE href="http://www.hotdiary.com/">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+</HEAD>
+<!-- <BODY BACKGROUND="images/pad.gif"> -->
+<BODY BGCOLOR=ffffff>
+<CENTER>
+<P><h3> :$label: </h3> 
+</P>
+</CENTER>
+<FORM ACTION=":$actioncgi:" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" NAME="post"> 
+<INPUT TYPE="HIDDEN"  NAME="biscuit" SIZE="-1" VALUE=":$biscuit:">
+<INPUT TYPE="HIDDEN"  NAME="to" SIZE="-1" VALUE=":$to:">
+<INPUT TYPE="HIDDEN"  NAME="thispage" SIZE="-1" VALUE=":$thispage:">
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+<FONT SIZE="3" FACE="Verdana">Select File to Send a Fax</FONT>
+</TR>
+<TR>
+<TD WIDTH="20%">
+<SELECT NAME=fmttype>
+<OPTION>text/plain</OPTION>
+<OPTION>text/html</OPTION>
+<OPTION>image/gif</OPTION>
+<OPTION>image/jpg</OPTION>
+<OPTION>application/pdf</OPTION>
+<OPTION>application/doc</OPTION>
+</SELECT>
+</TD>
+<TD WIDTH="90%">
+<INPUT TYPE=FILE NAME="faxfile" accept="text/plain">
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=2>
+<FONT SIZE="3" FACE="Verdana">Type Fax Message</FONT>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=2>
+<TEXTAREA NAME="message" ROWS="20" COLS="50"></TEXTAREA>
+</TD>
+</TR>
+</TABLE>
+
+<!-- search page footer -->
+<CENTER>
+<P><INPUT TYPE="IMAGE"  SRC="images/send.gif" border="0" NAME="send">
+<SPACER TYPE="HORIZONTAL" SIZE="30"><SPACER TYPE="HORIZONTAL" SIZE="30"> 
+<SPACER TYPE="HORIZONTAL" SIZE="30">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
+

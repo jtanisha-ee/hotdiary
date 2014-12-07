@@ -1,0 +1,37 @@
+<IMG SRC="/images/alarm.gif" BORDER="0" WIDTH="20" HEIGHT="20">
+<IMG SRC="/images/delevt.gif" BORDER="0" WIDTH="20" HEIGHT="20">
+<IMG SRC="/images/showbusy.gif" BORDER="0" WIDTH="20" HEIGHT="20">
+<IMG SRC="/images/bday.gif" BORDER="0" WIDTH="20" HEIGHT="20">
+
+
+$url will be passed as input to dispatch, and it will always look like this:
+
+$url = "/cgi-bin/execcalclient.cgi?biscuit=$biscuit";
+Also trash image above is link:
+
+$a = "d";
+$rurltag = adjusturl "$url&vw=$vw&dy=$dy&mo=$mo&yr=$yr&h=$h&m=$m&f=$f&a=$d";
+$prm = ""
+$prm = strapp $prm, "redirecturl=$rurltag";
+$prm = strapp $prm, "template=$ENV{HDTMPL}/redirect_url.html";
+$prm = strapp $prm, "templateout=$ENV{HDHREP}/$login/redirect_url.html";
+parseIt $prm;
+
+$trurl = "$ENV{HDHREP}/$login/redirect_url.html";
+
+When the user clicks on trash can corresponding to an entryno, the following
+link is invoked:
+
+For each trashcan correponding to an entryno, you must implement the following
+code:
+
+   $a = "r";
+   $imgurl = adjusturl "<a href=\"$url&vw=$vw&dy=$dy&mo=$mo&yr=$yr&h=$h&m=$m&en=$en&f=$f&a=$a&rurl=$trurl\"><IMG SRC=\"/images/delevt.gif\" BORDER=\"0\" WIDTH=\"20\" HEIGHT=\"20\"></a>";
+   $prml = strapp $prml, "img$row1=$imgurl";
+   
+After this link is invoked, the item gets deleted, and the next next thing to
+do is return control back to the calling calutil.pm function, createCalendar
+where we print the following statements to stdout:
+
+system "cat $ENV{HDTMPL}/content.html";
+system "cat $rurl";

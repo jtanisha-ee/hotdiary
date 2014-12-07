@@ -1,0 +1,178 @@
+
+<!-- top table row -->
+<TR>
+<!--Table search address entry -->
+
+<!-- checkbox table definiton -->
+<TD WIDTH="100%">
+<TABLE BORDER="6" CELLPADDING="0" CELLSPACING="0" BGCOLOR="#66FFFF">
+
+<!-- checkbox table first row -->
+<TR>
+<TD WIDTH="3%" BGCOLOR="#FF0011"><INPUT TYPE="CHECKBOX" NAME=":$checkboxfield:"> 
+<INPUT TYPE="HIDDEN" NAME=":$entrynfield:" SIZE="-1" 
+VALUE=":$entryno:"></TD>
+
+<TD WIDTH="97%">
+
+<!- field table defintion -->
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="#66FFFF">
+
+<!-- field table Ist row -->
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">Name(s)<BR><FONT SIZE="1">(Person/Business)</FONT></FONT></TD>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$fnamfield:" SIZE="20" MAXLENGTH="20" VALUE=":$fname:"></TD>
+<TD WIDTH="15%"><TABLE CELLSPACING="15"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">Other(s)<BR><FONT SIZE="1">(Person/Contact)</FONT></FONT></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$lnamfield:" SIZE="20" MAXLENGTH="20" VALUE=":$lname:"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">Business Name<BR><FONT SIZE="1">
+</FONT></FONT></TD>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$busnamfield:" SIZE="20" 
+MAXLENGTH="20" VALUE=":$busname:"></TD>
+<TD WIDTH="15%"><TABLE CELLSPACING="15"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">AptNo<BR><FONT SIZE="1">(SuiteNo)
+</FONT></FONT></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$aptnfield:" SIZE="20" MAXLENGTH="20"
+VALUE=":$aptno:"></TD>
+</TR>
+                               
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">Street Address</FONT></TD>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$streefield:" SIZE="20" MAXLENGTH="128" VALUE=":$street:"></TD>
+<TD WIDTH="15%"><TABLE BGCOLOR="#FF0000"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">City</FONT></TD> <TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$citfield:" SIZE="20" MAXLENGTH="20" VALUE=":$city:"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">State</FONT></TD>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$statfield:" SIZE="10" MAXLENGTH="20" VALUE=":$state:"></TD>
+<TD WIDTH="15%"><TABLE BGCOLOR="#FF0000"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">Zipcode</FONT></TD> <TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$zipcodfield:" SIZE="10" MAXLENGTH="20" VALUE=":$zipcode:"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">Country</FONT></TD>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$countrfield:" SIZE="10" MAXLENGTH="10" VALUE=":$country:"></TD>
+<TD WIDTH="15%"><TABLE BGCOLOR="#FF0000"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">Phone</FONT></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$phonfield:" SIZE="20" MAXLENGTH="32" VALUE=":$phone:"><IMAGE SRC="images/phone.gif" border="0"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%"> <FONT SIZE="2">
+<SELECT NAME=":$pagertypfield:">
+<OPTION SELECTED>:$pagertype:</OPTION>
+<OPTION>SkyTel Pager</OPTION>
+<OPTION>AirTouch Pager</OPTION>
+<OPTION>Nextel Pager</OPTION>
+<OPTION>PageMart Pager</OPTION>
+<OPTION>Metrocall Pager</OPTION>
+<OPTION>Other Pager</OPTION>
+</SELECT>
+</FONT>
+</TD>
+<TD WIDTH="10%"> <A HREF=":$pageurl:"><IMG SRC="images/pager.gif" width="20" height="20" border="0"></A></TD>
+<TD WIDTH="19%" HEIGHT="43"> <INPUT TYPE="TEXT" NAME=":$pagefield:" SIZE="20" MAXLENGTH="32" VALUE=":$pager:"> </TD>
+<TD WIDTH="15%"><TABLE BGCOLOR="#FF0000"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%" HEIGHT="43"><FONT FACE="Verdana">Fax</FONT></TD>
+<TD WIDTH="19%" HEIGHT="43"> <INPUT TYPE="TEXT" NAME=":$fafield:" SIZE="20" MAXLENGTH="32" VALUE= ":$fax:"> <A HREF=":$faxurl:"><IMAGE SRC="images/fax.gif" border="0"></A> </TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">Cell Phone</FONT></TD>
+<TD WIDTH="10%"><IMAGE SRC="images/cellphone.gif" width="25" height="25" border="0"></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$cphonfield:" SIZE="20" MAXLENGTH="32" VALUE=":$cellp:"></TD>
+<TD WIDTH="15%"><TABLE BGCOLOR="#FF0000"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">Bus. Phone</FONT></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$bphonfield:" SIZE="20" MAXLENGTH="32" VALUE=":$busp:"><IMAGE SRC="images/phone.gif" border="0"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%"><FONT FACE="Verdana">Email</FONT></TD>
+<TD WIDTH="10%"><a href="mailto::$email:"><IMAGE SRC="images/3dmail.gif" width="20" height="20" border="0"></a></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$emaifield:" SIZE="20" MAXLENGTH="64" VALUE=":$email:">
+</TD>
+<TD WIDTH="15%"><TABLE BGCOLOR="#FF0000"><TR><TD></TD></TR></TABLE></TD>
+<TD WIDTH="19%"><FONT FACE="Verdana">URL</FONT></TD>
+<TD WIDTH="19%"><INPUT TYPE="TEXT" NAME=":$urfield:" SIZE="20" MAXLENGTH="128" VALUE=":$url:"><A HREF=":$jumpurl:"><IMAGE SRC="images/url.gif" width="25" height="25" border="0"></A></TD>
+</TR>
+
+<TR>
+<TD WIDTH="19%" BGCOLOR="#66FFFF"><FONT FACE="Verdana">Birthday</FONT></TD>
+<TD WIDTH="10%"></TD>
+<TD WIDTH="19%" BGCOLOR="#66FFFF">
+<TABLE BGCOLOR="#66FFFF" BORDERCOLOR="#66FFFF" BORDERWIDTH="0" WIDTH="100%">
+
+<TD BGCOLOR="#66FFFF"><FONT SIZE="2"><SELECT NAME=":$bmontfield:">
+<OPTION SELECTED>:$bmonth:</OPTION> 
+<OPTION VALUE=1>Jan</OPTION><OPTION VALUE=2>Feb</OPTION>
+<OPTION VALUE=3>Mar</OPTION><OPTION VALUE=4>Apr</OPTION>
+<OPTION VALUE=5>May</OPTION><OPTION VALUE=6>Jun</OPTION>
+<OPTION VALUE=7>Jul</OPTION> <OPTION VALUE=8>Aug</OPTION>
+<OPTION VALUE=9>Sept</OPTION> <OPTION VALUE=10>Oct</OPTION>
+<OPTION VALUE=11>Nov</OPTION><OPTION VALUE=12>Dec</OPTION>
+</SELECT>
+</FONT>
+</TD>
+
+<TD><FONT SIZE="2"> <SELECT NAME=":$bdafield:">
+<OPTION SELECTED>:$bday:</OPTION> 
+<OPTION>1</OPTION><OPTION>2</OPTION> <OPTION>3</OPTION>
+<OPTION>4</OPTION><OPTION>5</OPTION> <OPTION>6</OPTION>
+<OPTION>7</OPTION><OPTION>8</OPTION> <OPTION>9</OPTION>
+<OPTION>10</OPTION><OPTION>11</OPTION> <OPTION>12</OPTION>
+<OPTION>13</OPTION><OPTION>14</OPTION> <OPTION>15</OPTION>
+<OPTION>16</OPTION><OPTION>17</OPTION> <OPTION>18</OPTION>
+<OPTION>19</OPTION><OPTION>20</OPTION> <OPTION>21</OPTION>
+<OPTION>22</OPTION><OPTION>23</OPTION> <OPTION>24</OPTION>
+<OPTION>25</OPTION><OPTION>26</OPTION> <OPTION>27</OPTION>
+<OPTION>28</OPTION><OPTION>29</OPTION> <OPTION>30</OPTION>
+<OPTION>31</OPTION>
+</SELECT>
+</FONT>
+</TD>
+<TD>
+<TD BGCOLOR="#66FFFF"><INPUT TYPE="TEXT" NAME=":$byeafield:" SIZE="3" MAXLENGTH="4" VALUE=":$byear:" >
+</TD>
+</TABLE>
+</TD>
+
+<TD WIDTH="15%"> 
+<TABLE CELLSPACING="15">
+<TR>
+<TD>
+&nbsp;
+</TD>
+</TR>
+</TABLE>
+</TD>
+
+<TD COLSPAN="2">
+<TEXTAREA NAME=":$otherinffield:" ROWS="5" COLS="30">:$otherinfo:</TEXTAREA> 
+</TD> 
+</TR>
+
+<TR>
+<TD COLSPAN="4">
+<a href=":$directions:"><FONT FACE="Verdana">Directions</FONT></a>
+</TD>
+</TR>
+
+</TABLE>  <!-- field table end -->
+</TD> <!-- checkbox table Ist TD end -->
+</TR> <!-- checkbox table Ist row end -->
+</TABLE> <!-- checkbox table end -->
+</TR> <!-- end of the  top table row -->
+<TR>
+<TD>
+<BR>
+</TD>
+</TR>

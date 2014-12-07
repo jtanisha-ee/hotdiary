@@ -1,0 +1,203 @@
+<!--
+
+(C) Copyright 1997-2000 HotDiary Inc.
+
+ This software is confidential copyrighted information of HotDiary and
+ title to all copies is retained by HotDiary and/or its licensors.
+ Licensee shall not modify, decompile, disassemble, decrypt, extract,
+ or otherwise. This software may not be leased, assigned, or sublicensed,
+ in whole or in part.
+
+Information Common To All Templates
+
+- If you are viewing this page using the View Source utility
+of the browser, you will see information for a specific session
+as opposed to the generic template. So this may not be the
+best way to view the template. We suggest that you download
+the template using JiveIt! admin utility.
+
+- Please download this template on a regular basis to make sure
+you have taken advantage of new applications that HotDiary
+introduces on a regular basis.
+
+- You can customize this template to add your own structure
+and look n feel. These could include your own images, layout,
+style, fonts, color, java script, java, or even custom links. You
+can pass HotDiary variables as parameters to your custom links.
+This may help you to build seemless extensions to HotDiary and blend it
+more easily into your functional environment.
+
+- After you are done with customization, you can upload the
+template using the Admin link on your JiveIt! site. After you
+login into your admin account as an administrator, click the
+upload template link to upload the template. (For those of you
+who have customized the JiveIt Home template, make sure you
+preserve the Admin link. This will help you to administer
+your JiveIt! site more easily.)
+
+- Be careful with our link tags and parameters! As long as you
+keep those unharmed, you can move things around and design
+it using your favorite HTML authoring tool
+
+- All hotdiary variables are in the format :$var:, where var is
+the variable.
+
+Welcome To The mygroups Template. (Last Updated: Mar. 26, 2000)
+mygroups.txt
+
+-->
+
+
+
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>HotDiary - A Dynamic Business Web Services Company, Customizable Portal Tools, Free Web Organizer, Planner, Groups, Reminders, Memo, B2B Scheduler, Chat, To-Do, BBS, Pager, And Fax.</TITLE>
+
+<meta name=keywords content="word list english dictionary vocabulary language linguistic thesaurus portal free calendar server organizer group reminder diary download planner memo to-do to do schedule appointment list instant b2b business2business business-to-business business team project corporate web intranet asp online office contact manager conflict resolution party secure ecommerce e-commerce meeting event publish ISP hosting news calandar submit press release promotion service public calender community address book organiser pager fax daily monthly weekly yearly personal PIM collaborate virtual communities">
+<meta name=description content="Free Internet Organizer For Individuals And Businesses. Includes Calendar, Contact Manager, B2B Planner, File Planner, Party Planner, and Communication using Pager, Fax, and Email">
+<meta http-equiv=Content-language content=en-US>
+<meta name=robots content="index, follow">
+<meta name=revisit-after content="10 days">
+</HEAD>
+
+<BODY bgcolor="ffffff" text="black">
+
+<FORM ACTION="/cgi-bin/:$rh:/execdogeneric.cgi" METHOD="POST" :$formenc:>
+
+:$hiddenvars:
+<FONT FACE="Verdana" SIZE="1">
+
+<CENTER>
+<TABLE>
+<TR>
+<TD ALIGN=LEFT WIDTH="15%">:$logo:</TD>
+<TD WIDTH="85%">
+<CENTER>
+<FONT FACE="Verdana" SIZE="4"><b>:$label: (Secure)</b></FONT><BR>
+<FONT FACE="Verdana" SIZE="3"><a href=":$searchcal:">Search</a>, <a href=":$createcal:">Create</a>, and <a href=":$managecal:">Manage</a><BR>Group Calendars And Group Memos</FONT><BR>
+</CENTER>
+</TD>
+<TD WIDTH="15%">
+&nbsp;
+<!--
+<a href="http://www.hotdiary.com"><FONT FACE="Verdana" SIZE="1">Powered By HotDiary</FONT></a>
+-->
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+
+<TABLE BORDER="1" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
+<TR>
+<TD>
+
+<TABLE BORDER="0" BGCOLOR=dddddd CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR BGCOLOR=dddddd>
+<TD BGCOLOR=dddddd ALIGN="LEFT"><FONT FACE="Verdana" SIZE="3">:$welcome: :$login:</FONT></TD>
+<TD BGCOLOR=dddddd ALIGN="RIGHT"><FONT FACE="Verdana" SIZE="3">
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execproxylogout:&p1=biscuit&p2=jp&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Logout</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execshowtopcal:&p1=biscuit&p2=jp&pnum=3&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&biscuit=:$biscuit:&jp=:$jp:&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Home</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&jp=:$jp:&biscuit=:$biscuit:&page=jwhatsnew.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">What's New</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&jp=:$jp:&biscuit=:$biscuit:&page=jfeatures.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Features</a> -
+<a href="/cgi-bin/:$rh:/execdogeneric.cgi?p0=:$execdeploypage:&p1=biscuit&p2=page&p3=jp&pnum=4&re0=CGISUBDIR&le0=rh&re1=HTTPSUBDIR&le1=hs&re2=SERVER_NAME&le2=vdomain&re3=HDLIC&le3=HDLIC&HDLIC=:$HDLIC:&jp=:$jp:&biscuit=:$biscuit:&page=jhelp.html&rh=:$rh:&hs=:$hs:&vdomain=:$vdomain:&le4=os&re4=os&re5=HTTP_COOKIE&le5=HTTP_COOKIE&enum=6">Help</a>
+</FONT>
+</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+<CENTER>
+<TABLE WIDTH=60% ALIGN=CENTER>
+<TR>
+<TD COLSPAN=2> 
+:$memotype:
+</TD>
+
+<CENTER>
+<TD ALIGN=MIDDLE>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<TABLE> 
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=diaryboard VALUE="Group Diary Board"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=notes VALUE="Group Diary Pad"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=calendar VALUE="Group Calendar"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=groupcontact VALUE="Group Contacts"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=memo VALUE="Group Memo"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=calendarwebsite VALUE="Group Calendar Website"></FONT>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<FONT FACE="Verdana" SIZE="3"><INPUT TYPE=SUBMIT NAME=contactwebsite VALUE="Group Contacts Website"></FONT>
+</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<BR>
+<BR>
+<BR>
+<CENTER>
+<FONT FACE="Verdana" SIZE="2"><B>Group Websites</B></FONT>
+<BR>
+<BR>
+<FONT FACE="Verdana" SIZE="2"><B>Calendar: &nbsp;&nbsp;http://:$vdomain:/groups/groupname</B></FONT>
+<BR>
+<FONT FACE="Verdana" SIZE="2"><B>Contacts: &nbsp;&nbsp;http://:$vdomain:/contacts/groupname</B></FONT>
+</CENTER>
+
+<!--
+<a href="http://www.websitesponsors.com/cgi-bin/2000/click?h=hotdiary&t=468&n=001"><img src="http://www.websitesponsors.com/2000/image.php3?h=hotdiary&t=468&n=001" width=468 height=60 alt="Please Support Our Sponsor" border=0></a>
+-->
+
+
+</FONT>
+</FORM>
+</BODY>
+</HTML>
+

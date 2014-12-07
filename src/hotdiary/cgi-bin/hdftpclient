@@ -1,0 +1,56 @@
+#!/bin/ksh
+
+# Usage
+#/usr/local/admin/bin/promote "su - gubri -c \"/usr/local/hotdiary/cgi-bin/hdftpclient ftp.tripod.com watercal santana1 ls /tmp/test1000\""
+#/usr/local/admin/bin/promote "su - gubri -c \"/usr/local/hotdiary/cgi-bin/hdftpclient ftp.tripod.com watercal santana1 'put /tmp/test1000 junk2.html' /tmp/test1000\""
+# system "/usr/local/admin/bin/promote \"su - hotdiary - c /var/tmp/sendfax$$\"";
+
+if [ $# != 6 ]; then
+   echo "Usage: $0 <machine> <login> <passwd> <ftpcmd> <ftptmpfile> <ftperrfile>";
+   exit 1
+fi
+
+machine=$1
+login=$2
+passwd=$3
+ftpcmd=$4
+ftptmpfile=$5
+ftperrfile=$6
+
+export HOME=/home/gubri
+
+integer cnt=0
+while [ 1 ]; do
+   cnt=$cnt+1
+   if [ "$cnt" == "100" ]; then
+      rm -f /home/gubri/.netrc
+   fi
+   if [ -s /home/gubri/.netrc ]; then
+      sleep 1
+   else
+      break
+   fi
+done
+   
+echo "machine $machine login $login passwd $passwd" > /home/gubri/.netrc
+chmod 600 /home/gubri/.netrc
+
+> $ftptmpfile
+> $ftperrfile
+#ftp $machine >>$ftptmpfile 2>&1 <<EOF
+#ftp $machine 2>>$ftptmpfile <<EOF
+ftp $machine 1>>$ftptmpfile 2>>$ftperrfile <<EOF
+$ftpcmd
+bye
+EOF
+
+
+status=$?
+
+fsize=`cat $ftperrfile | wc -l`
+if [ "$fsize" != "0" ]; then
+   status=1
+fi
+
+rm -f /home/gubri/.netrc
+exit $status
